@@ -1,0 +1,1232 @@
+fairness_bucket_id,risk_band,income_band,dpd_band,product_type
+F00001,Low,Low,0-60,Credit Card
+F00002,High,Medium,180+,Credit Card
+F00003,Low,High,0-60,Personal Loan
+F00004,Low,Medium,0-60,Credit Card
+F00005,Low,Medium,0-60,Credit Card
+F00006,Low,Medium,0-60,Telecom
+F00007,Medium,High,61-180,Credit Card
+F00008,Low,Medium,0-60,Personal Loan
+F00009,Medium,High,61-180,Credit Card
+F00010,Low,Low,0-60,Personal Loan
+F00011,Low,Low,0-60,Credit Card
+F00012,Medium,High,61-180,Personal Loan
+F00013,Low,Medium,0-60,Personal Loan
+F00014,Low,Low,0-60,Credit Card
+F00015,High,Low,180+,Credit Card
+F00016,Medium,High,61-180,Credit Card
+F00017,Low,High,0-60,Credit Card
+F00018,High,High,180+,Personal Loan
+F00019,High,High,180+,Credit Card
+F00020,High,High,180+,Personal Loan
+F00021,Medium,High,61-180,Telecom
+F00022,Medium,High,61-180,Credit Card
+F00023,High,Medium,180+,Personal Loan
+F00024,High,Medium,180+,Credit Card
+F00025,Low,Medium,0-60,Credit Card
+F00026,Low,Medium,0-60,Credit Card
+F00027,Low,Low,0-60,Personal Loan
+F00028,Low,Medium,0-60,Credit Card
+F00029,Low,Low,0-60,Credit Card
+F00030,Low,Low,0-60,Personal Loan
+F00031,Medium,Low,61-180,Credit Card
+F00032,Low,High,0-60,Credit Card
+F00033,High,Low,180+,Telecom
+F00034,Low,Low,0-60,Telecom
+F00035,Medium,Low,61-180,Personal Loan
+F00036,Low,High,0-60,Personal Loan
+F00037,Low,Medium,0-60,Credit Card
+F00038,Medium,Medium,61-180,Credit Card
+F00039,Medium,Low,61-180,Credit Card
+F00040,Medium,Low,61-180,Credit Card
+F00041,Low,Medium,0-60,Personal Loan
+F00042,Low,Medium,0-60,Personal Loan
+F00043,Low,Medium,0-60,Credit Card
+F00044,Medium,Medium,61-180,Credit Card
+F00045,High,Low,180+,Credit Card
+F00046,Low,Low,0-60,Credit Card
+F00047,Low,Low,0-60,Personal Loan
+F00048,Medium,Medium,61-180,Personal Loan
+F00049,Medium,High,61-180,Personal Loan
+F00050,Medium,Medium,61-180,Personal Loan
+F00051,Medium,Medium,61-180,Credit Card
+F00052,High,High,180+,Personal Loan
+F00053,Medium,High,61-180,Credit Card
+F00054,Medium,Medium,61-180,Personal Loan
+F00055,Medium,High,61-180,Telecom
+F00056,Low,High,0-60,Personal Loan
+F00057,High,High,180+,Credit Card
+F00058,Medium,Medium,61-180,Credit Card
+F00059,Medium,Medium,61-180,Telecom
+F00060,High,High,180+,Personal Loan
+F00061,Medium,Low,61-180,Credit Card
+F00062,Low,High,0-60,Credit Card
+F00063,Medium,High,61-180,Personal Loan
+F00064,Low,Medium,0-60,Credit Card
+F00065,Medium,Low,61-180,Credit Card
+F00066,Medium,High,61-180,Personal Loan
+F00067,Low,Low,0-60,Credit Card
+F00068,Medium,Medium,61-180,Telecom
+F00069,Low,Low,0-60,Personal Loan
+F00070,Medium,Medium,61-180,Credit Card
+F00071,Low,High,0-60,Personal Loan
+F00072,Medium,Medium,61-180,Personal Loan
+F00073,Medium,Low,61-180,Personal Loan
+F00074,Medium,Low,61-180,Credit Card
+F00075,Medium,Low,61-180,Personal Loan
+F00076,High,High,180+,Credit Card
+F00077,Low,Low,0-60,Credit Card
+F00078,Low,Low,0-60,Credit Card
+F00079,Medium,Low,61-180,Credit Card
+F00080,Low,Medium,0-60,Telecom
+F00081,Medium,Low,61-180,Telecom
+F00082,Low,Medium,0-60,Personal Loan
+F00083,Low,Low,0-60,Telecom
+F00084,Medium,Medium,61-180,Credit Card
+F00085,Low,Medium,0-60,Telecom
+F00086,Medium,High,61-180,Telecom
+F00087,Medium,High,61-180,Credit Card
+F00088,Low,Medium,0-60,Personal Loan
+F00089,Low,Medium,0-60,Personal Loan
+F00090,High,High,180+,Telecom
+F00091,Low,Medium,0-60,Credit Card
+F00092,Low,High,0-60,Telecom
+F00093,Low,High,0-60,Personal Loan
+F00094,Medium,Low,61-180,Credit Card
+F00095,High,Low,180+,Personal Loan
+F00096,High,High,180+,Personal Loan
+F00097,Low,High,0-60,Personal Loan
+F00098,Low,Medium,0-60,Personal Loan
+F00099,Medium,High,61-180,Personal Loan
+F00100,Medium,High,61-180,Personal Loan
+F00101,Low,Low,0-60,Personal Loan
+F00102,Medium,High,61-180,Credit Card
+F00103,Low,Medium,0-60,Personal Loan
+F00104,Medium,High,61-180,Credit Card
+F00105,Medium,Low,61-180,Telecom
+F00106,Low,Low,0-60,Telecom
+F00107,Medium,Low,61-180,Telecom
+F00108,Medium,Low,61-180,Personal Loan
+F00109,Low,High,0-60,Credit Card
+F00110,High,Medium,180+,Personal Loan
+F00111,Low,Medium,0-60,Personal Loan
+F00112,Low,Medium,0-60,Credit Card
+F00113,High,High,180+,Credit Card
+F00114,Medium,High,61-180,Personal Loan
+F00115,Medium,High,61-180,Credit Card
+F00116,Low,Medium,0-60,Credit Card
+F00117,Medium,High,61-180,Credit Card
+F00118,Medium,High,61-180,Personal Loan
+F00119,Medium,Low,61-180,Credit Card
+F00120,Low,Low,0-60,Credit Card
+F00121,Medium,Medium,61-180,Personal Loan
+F00122,Low,Low,0-60,Personal Loan
+F00123,Low,Low,0-60,Credit Card
+F00124,Low,Low,0-60,Credit Card
+F00125,Medium,High,61-180,Telecom
+F00126,Medium,Low,61-180,Credit Card
+F00127,Low,Low,0-60,Personal Loan
+F00128,Low,Low,0-60,Telecom
+F00129,Low,High,0-60,Credit Card
+F00130,Low,Medium,0-60,Telecom
+F00131,Medium,High,61-180,Credit Card
+F00132,High,High,180+,Credit Card
+F00133,Low,Low,0-60,Personal Loan
+F00134,Medium,Medium,61-180,Telecom
+F00135,High,Low,180+,Personal Loan
+F00136,High,Low,180+,Credit Card
+F00137,Medium,Medium,61-180,Credit Card
+F00138,Medium,Medium,61-180,Credit Card
+F00139,Low,High,0-60,Credit Card
+F00140,Medium,Medium,61-180,Credit Card
+F00141,Low,High,0-60,Credit Card
+F00142,Low,High,0-60,Telecom
+F00143,Medium,Low,61-180,Credit Card
+F00144,Low,Low,0-60,Personal Loan
+F00145,High,Low,180+,Credit Card
+F00146,Medium,Medium,61-180,Credit Card
+F00147,Medium,Medium,61-180,Personal Loan
+F00148,Medium,High,61-180,Credit Card
+F00149,Medium,High,61-180,Credit Card
+F00150,Medium,High,61-180,Personal Loan
+F00151,Low,Medium,0-60,Telecom
+F00152,Low,High,0-60,Credit Card
+F00153,Medium,High,61-180,Telecom
+F00154,Low,Medium,0-60,Credit Card
+F00155,Low,Low,0-60,Telecom
+F00156,Low,Medium,0-60,Personal Loan
+F00157,Medium,High,61-180,Telecom
+F00158,Medium,Low,61-180,Credit Card
+F00159,Low,Medium,0-60,Telecom
+F00160,Medium,Low,61-180,Personal Loan
+F00161,Low,Low,0-60,Credit Card
+F00162,Medium,High,61-180,Credit Card
+F00163,Low,Medium,0-60,Telecom
+F00164,Low,High,0-60,Credit Card
+F00165,Low,Medium,0-60,Credit Card
+F00166,Low,Medium,0-60,Credit Card
+F00167,Low,Medium,0-60,Credit Card
+F00168,Low,Low,0-60,Personal Loan
+F00169,Low,Low,0-60,Telecom
+F00170,Low,High,0-60,Personal Loan
+F00171,Low,Medium,0-60,Telecom
+F00172,Medium,Medium,61-180,Credit Card
+F00173,Low,Low,0-60,Credit Card
+F00174,Medium,Medium,61-180,Credit Card
+F00175,Medium,High,61-180,Credit Card
+F00176,Low,Medium,0-60,Credit Card
+F00177,Low,Medium,0-60,Telecom
+F00178,Low,Low,0-60,Personal Loan
+F00179,Medium,Medium,61-180,Personal Loan
+F00180,Low,High,0-60,Telecom
+F00181,Medium,High,61-180,Credit Card
+F00182,Medium,High,61-180,Credit Card
+F00183,High,High,180+,Personal Loan
+F00184,Medium,Low,61-180,Personal Loan
+F00185,Medium,Medium,61-180,Credit Card
+F00186,Low,Low,0-60,Credit Card
+F00187,Low,High,0-60,Telecom
+F00188,High,Medium,180+,Credit Card
+F00189,Low,Low,0-60,Credit Card
+F00190,Low,Medium,0-60,Telecom
+F00191,High,High,180+,Credit Card
+F00192,Low,High,0-60,Telecom
+F00193,Low,Medium,0-60,Credit Card
+F00194,Medium,Medium,61-180,Telecom
+F00195,Medium,High,61-180,Credit Card
+F00196,Low,Low,0-60,Personal Loan
+F00197,Low,High,0-60,Personal Loan
+F00198,Medium,Medium,61-180,Telecom
+F00199,Low,Low,0-60,Credit Card
+F00200,Low,High,0-60,Telecom
+F00201,Medium,Medium,61-180,Credit Card
+F00202,Low,Medium,0-60,Telecom
+F00203,Low,Medium,0-60,Telecom
+F00204,Medium,Low,61-180,Telecom
+F00205,Medium,Low,61-180,Credit Card
+F00206,Medium,Low,61-180,Credit Card
+F00207,Low,Low,0-60,Credit Card
+F00208,Low,Medium,0-60,Telecom
+F00209,High,Medium,180+,Telecom
+F00210,High,Low,180+,Personal Loan
+F00211,Medium,Low,61-180,Credit Card
+F00212,Medium,Medium,61-180,Telecom
+F00213,Medium,High,61-180,Personal Loan
+F00214,Low,High,0-60,Personal Loan
+F00215,Low,Medium,0-60,Personal Loan
+F00216,High,Low,180+,Telecom
+F00217,High,Low,180+,Credit Card
+F00218,Low,Medium,0-60,Personal Loan
+F00219,Medium,High,61-180,Personal Loan
+F00220,Low,Medium,0-60,Personal Loan
+F00221,Medium,Medium,61-180,Telecom
+F00222,Medium,Medium,61-180,Credit Card
+F00223,Low,Low,0-60,Credit Card
+F00224,Low,Low,0-60,Credit Card
+F00225,High,Low,180+,Credit Card
+F00226,Medium,High,61-180,Personal Loan
+F00227,Medium,Medium,61-180,Credit Card
+F00228,Low,Medium,0-60,Personal Loan
+F00229,Medium,High,61-180,Credit Card
+F00230,Medium,Low,61-180,Personal Loan
+F00231,Medium,Medium,61-180,Credit Card
+F00232,Low,High,0-60,Credit Card
+F00233,Low,Low,0-60,Telecom
+F00234,Low,Low,0-60,Personal Loan
+F00235,Low,Medium,0-60,Personal Loan
+F00236,Medium,Low,61-180,Telecom
+F00237,Medium,High,61-180,Personal Loan
+F00238,Low,Low,0-60,Telecom
+F00239,Low,Medium,0-60,Credit Card
+F00240,Medium,High,61-180,Telecom
+F00241,High,Low,180+,Telecom
+F00242,High,Low,180+,Credit Card
+F00243,High,Low,180+,Personal Loan
+F00244,Medium,High,61-180,Telecom
+F00245,Low,Low,0-60,Credit Card
+F00246,Low,Medium,0-60,Credit Card
+F00247,Medium,High,61-180,Credit Card
+F00248,Medium,High,61-180,Credit Card
+F00249,Low,Low,0-60,Personal Loan
+F00250,Medium,High,61-180,Personal Loan
+F00251,Medium,Medium,61-180,Telecom
+F00252,Medium,High,61-180,Credit Card
+F00253,Low,Medium,0-60,Personal Loan
+F00254,Medium,Low,61-180,Credit Card
+F00255,Low,High,0-60,Personal Loan
+F00256,Medium,Medium,61-180,Credit Card
+F00257,Medium,Low,61-180,Telecom
+F00258,Low,Medium,0-60,Personal Loan
+F00259,Medium,High,61-180,Personal Loan
+F00260,Low,High,0-60,Personal Loan
+F00261,Low,Medium,0-60,Credit Card
+F00262,High,Low,180+,Credit Card
+F00263,Low,Low,0-60,Personal Loan
+F00264,Low,Low,0-60,Telecom
+F00265,Medium,Low,61-180,Credit Card
+F00266,Medium,Medium,61-180,Personal Loan
+F00267,Low,High,0-60,Credit Card
+F00268,High,Medium,180+,Credit Card
+F00269,Low,High,0-60,Credit Card
+F00270,High,High,180+,Credit Card
+F00271,Low,Medium,0-60,Credit Card
+F00272,Low,Medium,0-60,Credit Card
+F00273,Low,Low,0-60,Telecom
+F00274,Medium,High,61-180,Credit Card
+F00275,Low,Low,0-60,Telecom
+F00276,Medium,Low,61-180,Telecom
+F00277,Low,Medium,0-60,Personal Loan
+F00278,Medium,Low,61-180,Credit Card
+F00279,Low,Low,0-60,Credit Card
+F00280,Low,Low,0-60,Credit Card
+F00281,Medium,Medium,61-180,Personal Loan
+F00282,Low,Low,0-60,Credit Card
+F00283,Medium,Low,61-180,Credit Card
+F00284,Medium,Medium,61-180,Credit Card
+F00285,Low,Medium,0-60,Telecom
+F00286,Medium,Medium,61-180,Personal Loan
+F00287,Low,High,0-60,Credit Card
+F00288,Low,Medium,0-60,Credit Card
+F00289,Medium,High,61-180,Personal Loan
+F00290,Medium,Medium,61-180,Credit Card
+F00291,Medium,Medium,61-180,Personal Loan
+F00292,Low,Medium,0-60,Telecom
+F00293,Low,High,0-60,Credit Card
+F00294,Medium,Low,61-180,Telecom
+F00295,Low,Medium,0-60,Credit Card
+F00296,Low,High,0-60,Telecom
+F00297,Medium,Medium,61-180,Telecom
+F00298,Medium,Low,61-180,Credit Card
+F00299,High,High,180+,Credit Card
+F00300,Medium,Medium,61-180,Personal Loan
+F00301,Low,Medium,0-60,Personal Loan
+F00302,Low,Medium,0-60,Credit Card
+F00303,Low,Low,0-60,Credit Card
+F00304,Medium,High,61-180,Telecom
+F00305,High,Medium,180+,Telecom
+F00306,Low,Medium,0-60,Personal Loan
+F00307,High,High,180+,Credit Card
+F00308,Low,Low,0-60,Personal Loan
+F00309,Medium,Low,61-180,Personal Loan
+F00310,Low,Low,0-60,Credit Card
+F00311,Low,Low,0-60,Credit Card
+F00312,Low,Low,0-60,Telecom
+F00313,Medium,Medium,61-180,Credit Card
+F00314,Medium,Medium,61-180,Personal Loan
+F00315,High,Medium,180+,Personal Loan
+F00316,Medium,High,61-180,Credit Card
+F00317,Low,Low,0-60,Credit Card
+F00318,Medium,High,61-180,Credit Card
+F00319,Low,Low,0-60,Credit Card
+F00320,Low,Low,0-60,Telecom
+F00321,Low,High,0-60,Telecom
+F00322,Low,Medium,0-60,Personal Loan
+F00323,Low,High,0-60,Credit Card
+F00324,Medium,Medium,61-180,Telecom
+F00325,High,Low,180+,Credit Card
+F00326,Medium,Medium,61-180,Credit Card
+F00327,Medium,Low,61-180,Personal Loan
+F00328,Low,Low,0-60,Telecom
+F00329,Low,Medium,0-60,Credit Card
+F00330,Low,Low,0-60,Personal Loan
+F00331,Low,Medium,0-60,Credit Card
+F00332,Low,High,0-60,Credit Card
+F00333,Low,Low,0-60,Credit Card
+F00334,Medium,Low,61-180,Credit Card
+F00335,High,High,180+,Credit Card
+F00336,Low,Low,0-60,Credit Card
+F00337,Low,High,0-60,Credit Card
+F00338,Medium,High,61-180,Personal Loan
+F00339,Medium,Low,61-180,Credit Card
+F00340,Medium,High,61-180,Credit Card
+F00341,Medium,High,61-180,Credit Card
+F00342,Medium,High,61-180,Credit Card
+F00343,Low,Low,0-60,Credit Card
+F00344,Medium,High,61-180,Credit Card
+F00345,Low,Medium,0-60,Credit Card
+F00346,Medium,Medium,61-180,Personal Loan
+F00347,Medium,High,61-180,Credit Card
+F00348,Medium,Medium,61-180,Credit Card
+F00349,Medium,Low,61-180,Credit Card
+F00350,Low,High,0-60,Personal Loan
+F00351,Medium,Low,61-180,Telecom
+F00352,Low,Medium,0-60,Credit Card
+F00353,Low,Medium,0-60,Credit Card
+F00354,High,Medium,180+,Credit Card
+F00355,Medium,Medium,61-180,Personal Loan
+F00356,Low,Low,0-60,Personal Loan
+F00357,High,High,180+,Credit Card
+F00358,Low,Low,0-60,Credit Card
+F00359,Low,High,0-60,Personal Loan
+F00360,Low,Medium,0-60,Credit Card
+F00361,Medium,Medium,61-180,Personal Loan
+F00362,Medium,Medium,61-180,Personal Loan
+F00363,Low,Medium,0-60,Personal Loan
+F00364,Low,Low,0-60,Personal Loan
+F00365,Medium,High,61-180,Credit Card
+F00366,Medium,High,61-180,Credit Card
+F00367,Medium,Medium,61-180,Credit Card
+F00368,Medium,Low,61-180,Personal Loan
+F00369,Medium,Medium,61-180,Credit Card
+F00370,Medium,High,61-180,Personal Loan
+F00371,Medium,High,61-180,Personal Loan
+F00372,Low,Low,0-60,Credit Card
+F00373,High,High,180+,Personal Loan
+F00374,Low,Low,0-60,Credit Card
+F00375,Low,Medium,0-60,Credit Card
+F00376,Medium,Medium,61-180,Credit Card
+F00377,Low,Low,0-60,Credit Card
+F00378,Medium,Medium,61-180,Personal Loan
+F00379,Low,Low,0-60,Credit Card
+F00380,Low,Medium,0-60,Personal Loan
+F00381,Low,Medium,0-60,Credit Card
+F00382,Low,High,0-60,Telecom
+F00383,Low,High,0-60,Credit Card
+F00384,High,Low,180+,Personal Loan
+F00385,High,Medium,180+,Credit Card
+F00386,Medium,Medium,61-180,Personal Loan
+F00387,Low,Medium,0-60,Personal Loan
+F00388,Medium,High,61-180,Telecom
+F00389,Medium,Low,61-180,Personal Loan
+F00390,Low,Low,0-60,Telecom
+F00391,Medium,Low,61-180,Credit Card
+F00392,High,Medium,180+,Credit Card
+F00393,Low,Low,0-60,Telecom
+F00394,Medium,High,61-180,Personal Loan
+F00395,Medium,High,61-180,Credit Card
+F00396,Medium,Low,61-180,Telecom
+F00397,Medium,Medium,61-180,Telecom
+F00398,Medium,High,61-180,Credit Card
+F00399,Low,High,0-60,Credit Card
+F00400,Medium,Medium,61-180,Credit Card
+F00401,Medium,Medium,61-180,Credit Card
+F00402,Medium,Low,61-180,Credit Card
+F00403,Medium,High,61-180,Credit Card
+F00404,Medium,High,61-180,Personal Loan
+F00405,Medium,Low,61-180,Credit Card
+F00406,Medium,Low,61-180,Personal Loan
+F00407,Low,High,0-60,Credit Card
+F00408,Medium,High,61-180,Telecom
+F00409,Low,Medium,0-60,Personal Loan
+F00410,Medium,Medium,61-180,Personal Loan
+F00411,Medium,High,61-180,Credit Card
+F00412,High,High,180+,Credit Card
+F00413,Medium,Medium,61-180,Telecom
+F00414,Low,Low,0-60,Credit Card
+F00415,Low,Low,0-60,Credit Card
+F00416,Medium,High,61-180,Credit Card
+F00417,Low,High,0-60,Personal Loan
+F00418,Medium,Medium,61-180,Credit Card
+F00419,Low,High,0-60,Credit Card
+F00420,Medium,Low,61-180,Credit Card
+F00421,Low,Medium,0-60,Personal Loan
+F00422,Medium,Medium,61-180,Personal Loan
+F00423,Low,Low,0-60,Credit Card
+F00424,Low,Low,0-60,Personal Loan
+F00425,Low,Medium,0-60,Credit Card
+F00426,Low,High,0-60,Telecom
+F00427,High,Low,180+,Personal Loan
+F00428,Medium,Medium,61-180,Credit Card
+F00429,Medium,High,61-180,Credit Card
+F00430,Medium,High,61-180,Telecom
+F00431,Low,Medium,0-60,Credit Card
+F00432,Low,Low,0-60,Personal Loan
+F00433,Medium,High,61-180,Personal Loan
+F00434,High,Low,180+,Telecom
+F00435,Medium,Medium,61-180,Credit Card
+F00436,Low,Low,0-60,Personal Loan
+F00437,High,High,180+,Personal Loan
+F00438,Medium,Medium,61-180,Personal Loan
+F00439,Low,High,0-60,Personal Loan
+F00440,Low,High,0-60,Credit Card
+F00441,Medium,Medium,61-180,Telecom
+F00442,Medium,Medium,61-180,Credit Card
+F00443,Low,Low,0-60,Telecom
+F00444,High,Medium,180+,Personal Loan
+F00445,Medium,Low,61-180,Credit Card
+F00446,Low,Medium,0-60,Credit Card
+F00447,Medium,High,61-180,Personal Loan
+F00448,Low,Low,0-60,Telecom
+F00449,Low,Medium,0-60,Telecom
+F00450,Low,Low,0-60,Personal Loan
+F00451,High,Low,180+,Personal Loan
+F00452,Medium,Low,61-180,Credit Card
+F00453,Low,High,0-60,Credit Card
+F00454,Low,Medium,0-60,Telecom
+F00455,Medium,Medium,61-180,Credit Card
+F00456,Medium,Low,61-180,Credit Card
+F00457,Medium,Medium,61-180,Credit Card
+F00458,Low,High,0-60,Telecom
+F00459,Low,Low,0-60,Personal Loan
+F00460,Low,High,0-60,Personal Loan
+F00461,Medium,High,61-180,Telecom
+F00462,Low,Medium,0-60,Personal Loan
+F00463,Low,Medium,0-60,Credit Card
+F00464,Low,Low,0-60,Personal Loan
+F00465,Medium,High,61-180,Credit Card
+F00466,Low,Medium,0-60,Credit Card
+F00467,Medium,Low,61-180,Personal Loan
+F00468,Low,Low,0-60,Personal Loan
+F00469,High,Medium,180+,Personal Loan
+F00470,Medium,High,61-180,Credit Card
+F00471,Medium,Low,61-180,Credit Card
+F00472,Low,Medium,0-60,Telecom
+F00473,Medium,Low,61-180,Personal Loan
+F00474,Medium,Medium,61-180,Personal Loan
+F00475,Low,Low,0-60,Personal Loan
+F00476,Medium,High,61-180,Credit Card
+F00477,Medium,Low,61-180,Credit Card
+F00478,Medium,Medium,61-180,Credit Card
+F00479,Medium,Medium,61-180,Credit Card
+F00480,Low,Medium,0-60,Credit Card
+F00481,Medium,High,61-180,Personal Loan
+F00482,Low,Medium,0-60,Credit Card
+F00483,Medium,Medium,61-180,Telecom
+F00484,Low,High,0-60,Credit Card
+F00485,Medium,Medium,61-180,Credit Card
+F00486,Low,Medium,0-60,Credit Card
+F00487,Medium,High,61-180,Credit Card
+F00488,Medium,Low,61-180,Telecom
+F00489,Medium,Medium,61-180,Personal Loan
+F00490,Medium,Low,61-180,Telecom
+F00491,Medium,High,61-180,Personal Loan
+F00492,Medium,Medium,61-180,Credit Card
+F00493,Medium,Medium,61-180,Telecom
+F00494,Low,High,0-60,Personal Loan
+F00495,Medium,Medium,61-180,Credit Card
+F00496,Low,Low,0-60,Telecom
+F00497,Medium,Low,61-180,Personal Loan
+F00498,Medium,High,61-180,Personal Loan
+F00499,Low,Medium,0-60,Personal Loan
+F00500,High,Medium,180+,Personal Loan
+F00501,Low,High,0-60,Credit Card
+F00502,Low,Low,0-60,Credit Card
+F00503,Medium,Low,61-180,Telecom
+F00504,Low,High,0-60,Credit Card
+F00505,Medium,Medium,61-180,Credit Card
+F00506,Medium,Low,61-180,Credit Card
+F00507,Medium,Medium,61-180,Personal Loan
+F00508,High,Low,180+,Personal Loan
+F00509,Medium,Medium,61-180,Credit Card
+F00510,Low,Low,0-60,Credit Card
+F00511,Medium,Medium,61-180,Personal Loan
+F00512,Medium,High,61-180,Personal Loan
+F00513,Medium,Low,61-180,Personal Loan
+F00514,Low,High,0-60,Personal Loan
+F00515,Medium,Low,61-180,Telecom
+F00516,Medium,Low,61-180,Credit Card
+F00517,Medium,Low,61-180,Credit Card
+F00518,Medium,Medium,61-180,Personal Loan
+F00519,Medium,Low,61-180,Personal Loan
+F00520,Low,High,0-60,Credit Card
+F00521,Low,Medium,0-60,Personal Loan
+F00522,Medium,Medium,61-180,Credit Card
+F00523,Medium,Low,61-180,Personal Loan
+F00524,Medium,Medium,61-180,Personal Loan
+F00525,Medium,Low,61-180,Credit Card
+F00526,Low,High,0-60,Credit Card
+F00527,Medium,Medium,61-180,Telecom
+F00528,Medium,Medium,61-180,Personal Loan
+F00529,High,High,180+,Personal Loan
+F00530,Low,High,0-60,Credit Card
+F00531,Medium,Low,61-180,Telecom
+F00532,Low,Medium,0-60,Telecom
+F00533,Medium,High,61-180,Personal Loan
+F00534,Low,Medium,0-60,Credit Card
+F00535,Low,High,0-60,Credit Card
+F00536,Low,Medium,0-60,Telecom
+F00537,Low,High,0-60,Personal Loan
+F00538,High,Medium,180+,Credit Card
+F00539,High,Low,180+,Personal Loan
+F00540,Medium,Medium,61-180,Personal Loan
+F00541,Medium,Low,61-180,Personal Loan
+F00542,Medium,Low,61-180,Credit Card
+F00543,Low,Low,0-60,Credit Card
+F00544,Low,Medium,0-60,Personal Loan
+F00545,Low,Medium,0-60,Telecom
+F00546,Low,Low,0-60,Personal Loan
+F00547,Medium,High,61-180,Credit Card
+F00548,Low,Medium,0-60,Telecom
+F00549,Medium,Medium,61-180,Personal Loan
+F00550,Medium,Medium,61-180,Telecom
+F00551,Medium,Medium,61-180,Personal Loan
+F00552,Medium,Low,61-180,Credit Card
+F00553,Low,High,0-60,Credit Card
+F00554,High,High,180+,Telecom
+F00555,Low,High,0-60,Personal Loan
+F00556,Low,High,0-60,Personal Loan
+F00557,Low,Low,0-60,Credit Card
+F00558,Medium,Medium,61-180,Personal Loan
+F00559,Medium,Medium,61-180,Personal Loan
+F00560,Low,Low,0-60,Personal Loan
+F00561,Low,Medium,0-60,Personal Loan
+F00562,Medium,Low,61-180,Telecom
+F00563,Medium,High,61-180,Credit Card
+F00564,Low,Low,0-60,Credit Card
+F00565,Medium,Medium,61-180,Personal Loan
+F00566,High,Medium,180+,Telecom
+F00567,Low,Medium,0-60,Credit Card
+F00568,Low,High,0-60,Personal Loan
+F00569,Low,Low,0-60,Credit Card
+F00570,Medium,Low,61-180,Personal Loan
+F00571,Low,Medium,0-60,Telecom
+F00572,Low,Low,0-60,Credit Card
+F00573,Low,Medium,0-60,Personal Loan
+F00574,High,Low,180+,Credit Card
+F00575,Low,High,0-60,Credit Card
+F00576,Low,High,0-60,Personal Loan
+F00577,Low,Low,0-60,Credit Card
+F00578,Low,High,0-60,Personal Loan
+F00579,Low,High,0-60,Personal Loan
+F00580,Low,High,0-60,Personal Loan
+F00581,Medium,Medium,61-180,Credit Card
+F00582,Medium,Low,61-180,Telecom
+F00583,Medium,Low,61-180,Credit Card
+F00584,Low,Medium,0-60,Credit Card
+F00585,Low,Medium,0-60,Telecom
+F00586,Medium,High,61-180,Credit Card
+F00587,Low,Low,0-60,Personal Loan
+F00588,Low,Medium,0-60,Credit Card
+F00589,Medium,High,61-180,Credit Card
+F00590,Medium,Low,61-180,Credit Card
+F00591,Low,High,0-60,Personal Loan
+F00592,High,Low,180+,Telecom
+F00593,Medium,High,61-180,Personal Loan
+F00594,Low,Low,0-60,Personal Loan
+F00595,High,Low,180+,Credit Card
+F00596,Low,Low,0-60,Personal Loan
+F00597,Medium,Low,61-180,Personal Loan
+F00598,High,High,180+,Telecom
+F00599,High,Medium,180+,Credit Card
+F00600,Medium,Low,61-180,Personal Loan
+F00601,Low,Low,0-60,Personal Loan
+F00602,Low,Low,0-60,Telecom
+F00603,Medium,Low,61-180,Credit Card
+F00604,Low,High,0-60,Telecom
+F00605,Medium,Medium,61-180,Credit Card
+F00606,Medium,Medium,61-180,Telecom
+F00607,Medium,Medium,61-180,Credit Card
+F00608,Low,High,0-60,Personal Loan
+F00609,Medium,Medium,61-180,Personal Loan
+F00610,Medium,High,61-180,Personal Loan
+F00611,Low,High,0-60,Credit Card
+F00612,High,Low,180+,Personal Loan
+F00613,Low,High,0-60,Telecom
+F00614,Medium,Medium,61-180,Telecom
+F00615,High,Medium,180+,Telecom
+F00616,Low,Medium,0-60,Credit Card
+F00617,Low,Low,0-60,Personal Loan
+F00618,Medium,Low,61-180,Personal Loan
+F00619,Medium,Low,61-180,Personal Loan
+F00620,Medium,High,61-180,Credit Card
+F00621,Medium,Medium,61-180,Telecom
+F00622,Medium,High,61-180,Credit Card
+F00623,Low,High,0-60,Credit Card
+F00624,High,Medium,180+,Personal Loan
+F00625,Low,Low,0-60,Telecom
+F00626,Medium,Medium,61-180,Telecom
+F00627,Medium,High,61-180,Credit Card
+F00628,Low,High,0-60,Credit Card
+F00629,Low,Low,0-60,Credit Card
+F00630,Medium,High,61-180,Credit Card
+F00631,Medium,High,61-180,Personal Loan
+F00632,Low,Medium,0-60,Personal Loan
+F00633,Medium,Low,61-180,Personal Loan
+F00634,High,Medium,180+,Personal Loan
+F00635,Medium,Medium,61-180,Credit Card
+F00636,Medium,Medium,61-180,Credit Card
+F00637,Low,High,0-60,Personal Loan
+F00638,Medium,High,61-180,Personal Loan
+F00639,Medium,Low,61-180,Telecom
+F00640,Low,High,0-60,Telecom
+F00641,Medium,Low,61-180,Telecom
+F00642,High,Medium,180+,Credit Card
+F00643,Medium,Medium,61-180,Telecom
+F00644,Medium,High,61-180,Personal Loan
+F00645,Low,High,0-60,Personal Loan
+F00646,Low,Low,0-60,Credit Card
+F00647,Low,High,0-60,Credit Card
+F00648,Medium,High,61-180,Personal Loan
+F00649,Medium,High,61-180,Credit Card
+F00650,Low,Medium,0-60,Credit Card
+F00651,Medium,High,61-180,Credit Card
+F00652,Low,High,0-60,Credit Card
+F00653,Low,Medium,0-60,Credit Card
+F00654,Medium,Medium,61-180,Credit Card
+F00655,High,Medium,180+,Telecom
+F00656,Medium,Medium,61-180,Telecom
+F00657,Medium,High,61-180,Credit Card
+F00658,Low,High,0-60,Personal Loan
+F00659,Medium,High,61-180,Personal Loan
+F00660,Low,Low,0-60,Personal Loan
+F00661,Medium,Medium,61-180,Credit Card
+F00662,Low,High,0-60,Personal Loan
+F00663,Medium,High,61-180,Telecom
+F00664,High,High,180+,Personal Loan
+F00665,Low,Medium,0-60,Credit Card
+F00666,High,Medium,180+,Personal Loan
+F00667,Low,Medium,0-60,Credit Card
+F00668,Low,High,0-60,Credit Card
+F00669,Low,Medium,0-60,Credit Card
+F00670,Medium,High,61-180,Telecom
+F00671,Low,Low,0-60,Personal Loan
+F00672,Low,Medium,0-60,Telecom
+F00673,Medium,Medium,61-180,Personal Loan
+F00674,Medium,High,61-180,Personal Loan
+F00675,Medium,Medium,61-180,Credit Card
+F00676,Low,Medium,0-60,Personal Loan
+F00677,Low,High,0-60,Credit Card
+F00678,Low,High,0-60,Telecom
+F00679,High,High,180+,Telecom
+F00680,Medium,Low,61-180,Credit Card
+F00681,Low,High,0-60,Telecom
+F00682,Medium,Medium,61-180,Credit Card
+F00683,Medium,Low,61-180,Telecom
+F00684,Medium,High,61-180,Credit Card
+F00685,Medium,Low,61-180,Credit Card
+F00686,High,Low,180+,Personal Loan
+F00687,Medium,Medium,61-180,Telecom
+F00688,Low,Low,0-60,Personal Loan
+F00689,Medium,High,61-180,Personal Loan
+F00690,Low,Low,0-60,Personal Loan
+F00691,Medium,Low,61-180,Personal Loan
+F00692,Low,Medium,0-60,Telecom
+F00693,Low,Medium,0-60,Credit Card
+F00694,Medium,High,61-180,Credit Card
+F00695,Low,Medium,0-60,Credit Card
+F00696,Low,High,0-60,Personal Loan
+F00697,Low,High,0-60,Personal Loan
+F00698,Medium,Medium,61-180,Credit Card
+F00699,Medium,Low,61-180,Credit Card
+F00700,Medium,Medium,61-180,Personal Loan
+F00701,Low,Low,0-60,Credit Card
+F00702,Medium,Low,61-180,Personal Loan
+F00703,Low,High,0-60,Telecom
+F00704,High,High,180+,Credit Card
+F00705,Medium,Medium,61-180,Personal Loan
+F00706,Low,Low,0-60,Personal Loan
+F00707,Low,Medium,0-60,Personal Loan
+F00708,Low,High,0-60,Personal Loan
+F00709,Medium,Low,61-180,Credit Card
+F00710,Medium,Medium,61-180,Credit Card
+F00711,Low,Medium,0-60,Telecom
+F00712,Medium,High,61-180,Personal Loan
+F00713,Medium,High,61-180,Personal Loan
+F00714,Low,High,0-60,Credit Card
+F00715,Medium,High,61-180,Telecom
+F00716,Medium,Medium,61-180,Personal Loan
+F00717,High,High,180+,Personal Loan
+F00718,High,High,180+,Telecom
+F00719,Medium,Medium,61-180,Telecom
+F00720,Low,Medium,0-60,Credit Card
+F00721,Medium,Low,61-180,Credit Card
+F00722,Low,Medium,0-60,Personal Loan
+F00723,Low,Low,0-60,Credit Card
+F00724,Low,High,0-60,Telecom
+F00725,Low,Low,0-60,Personal Loan
+F00726,Low,Low,0-60,Personal Loan
+F00727,High,High,180+,Telecom
+F00728,Low,High,0-60,Personal Loan
+F00729,Low,High,0-60,Credit Card
+F00730,Medium,Low,61-180,Credit Card
+F00731,Medium,Medium,61-180,Telecom
+F00732,Low,Medium,0-60,Credit Card
+F00733,Medium,Medium,61-180,Credit Card
+F00734,Low,High,0-60,Credit Card
+F00735,Low,High,0-60,Telecom
+F00736,Medium,Medium,61-180,Credit Card
+F00737,Medium,High,61-180,Personal Loan
+F00738,Medium,Low,61-180,Telecom
+F00739,Medium,Low,61-180,Credit Card
+F00740,Low,High,0-60,Telecom
+F00741,Medium,Medium,61-180,Credit Card
+F00742,Medium,Medium,61-180,Credit Card
+F00743,Low,Low,0-60,Personal Loan
+F00744,Low,High,0-60,Personal Loan
+F00745,High,Medium,180+,Credit Card
+F00746,Medium,Medium,61-180,Personal Loan
+F00747,High,High,180+,Telecom
+F00748,Low,High,0-60,Credit Card
+F00749,Low,Medium,0-60,Credit Card
+F00750,Low,High,0-60,Credit Card
+F00751,Medium,High,61-180,Credit Card
+F00752,Low,High,0-60,Credit Card
+F00753,Low,Medium,0-60,Personal Loan
+F00754,High,Low,180+,Credit Card
+F00755,Low,High,0-60,Telecom
+F00756,Medium,Medium,61-180,Telecom
+F00757,Medium,Low,61-180,Credit Card
+F00758,Medium,Medium,61-180,Credit Card
+F00759,High,Medium,180+,Credit Card
+F00760,Low,Medium,0-60,Personal Loan
+F00761,Medium,Low,61-180,Credit Card
+F00762,High,Medium,180+,Personal Loan
+F00763,Low,Low,0-60,Personal Loan
+F00764,Medium,High,61-180,Personal Loan
+F00765,Medium,Low,61-180,Personal Loan
+F00766,Medium,Medium,61-180,Personal Loan
+F00767,Medium,Low,61-180,Personal Loan
+F00768,Medium,Medium,61-180,Credit Card
+F00769,Medium,High,61-180,Personal Loan
+F00770,Low,Low,0-60,Telecom
+F00771,Medium,High,61-180,Credit Card
+F00772,Low,Low,0-60,Personal Loan
+F00773,High,Medium,180+,Credit Card
+F00774,Low,Low,0-60,Personal Loan
+F00775,Low,High,0-60,Personal Loan
+F00776,Medium,Low,61-180,Personal Loan
+F00777,Medium,High,61-180,Credit Card
+F00778,Medium,High,61-180,Credit Card
+F00779,High,Medium,180+,Credit Card
+F00780,Low,Low,0-60,Personal Loan
+F00781,Low,High,0-60,Credit Card
+F00782,Low,Medium,0-60,Personal Loan
+F00783,Low,Medium,0-60,Credit Card
+F00784,Low,Medium,0-60,Credit Card
+F00785,Low,High,0-60,Personal Loan
+F00786,Medium,Low,61-180,Personal Loan
+F00787,Low,High,0-60,Telecom
+F00788,Medium,Medium,61-180,Telecom
+F00789,Low,High,0-60,Credit Card
+F00790,Low,High,0-60,Telecom
+F00791,Medium,Medium,61-180,Personal Loan
+F00792,Medium,Low,61-180,Credit Card
+F00793,High,Medium,180+,Credit Card
+F00794,Low,Medium,0-60,Credit Card
+F00795,Medium,High,61-180,Personal Loan
+F00796,Low,Medium,0-60,Telecom
+F00797,High,High,180+,Personal Loan
+F00798,Low,Medium,0-60,Telecom
+F00799,High,Medium,180+,Telecom
+F00800,Low,Low,0-60,Personal Loan
+F00801,Low,Medium,0-60,Telecom
+F00802,Low,Low,0-60,Credit Card
+F00803,Medium,Medium,61-180,Credit Card
+F00804,Medium,Medium,61-180,Credit Card
+F00805,Low,Medium,0-60,Personal Loan
+F00806,Medium,Low,61-180,Personal Loan
+F00807,Low,High,0-60,Credit Card
+F00808,Low,Low,0-60,Credit Card
+F00809,Medium,Medium,61-180,Credit Card
+F00810,Medium,High,61-180,Credit Card
+F00811,Low,Medium,0-60,Credit Card
+F00812,Low,Low,0-60,Credit Card
+F00813,Low,Low,0-60,Telecom
+F00814,Medium,High,61-180,Credit Card
+F00815,Low,Low,0-60,Credit Card
+F00816,Medium,Medium,61-180,Credit Card
+F00817,Low,High,0-60,Personal Loan
+F00818,Low,Medium,0-60,Personal Loan
+F00819,Low,High,0-60,Credit Card
+F00820,Medium,High,61-180,Telecom
+F00821,Medium,Medium,61-180,Personal Loan
+F00822,Medium,Low,61-180,Personal Loan
+F00823,Medium,Medium,61-180,Credit Card
+F00824,Low,Low,0-60,Personal Loan
+F00825,Medium,Low,61-180,Credit Card
+F00826,Medium,Medium,61-180,Credit Card
+F00827,Low,High,0-60,Credit Card
+F00828,Medium,Medium,61-180,Credit Card
+F00829,Medium,High,61-180,Credit Card
+F00830,Low,Low,0-60,Personal Loan
+F00831,Medium,High,61-180,Personal Loan
+F00832,Medium,Medium,61-180,Credit Card
+F00833,Medium,High,61-180,Personal Loan
+F00834,Low,Low,0-60,Telecom
+F00835,Low,Low,0-60,Personal Loan
+F00836,Medium,High,61-180,Credit Card
+F00837,Medium,Low,61-180,Telecom
+F00838,High,Low,180+,Credit Card
+F00839,Medium,High,61-180,Telecom
+F00840,Low,Low,0-60,Personal Loan
+F00841,Medium,High,61-180,Personal Loan
+F00842,Medium,High,61-180,Credit Card
+F00843,Medium,Low,61-180,Credit Card
+F00844,Medium,High,61-180,Telecom
+F00845,Medium,Low,61-180,Personal Loan
+F00846,Medium,Low,61-180,Personal Loan
+F00847,Medium,Low,61-180,Credit Card
+F00848,Low,Medium,0-60,Personal Loan
+F00849,Medium,Low,61-180,Telecom
+F00850,Low,High,0-60,Telecom
+F00851,High,High,180+,Personal Loan
+F00852,Medium,High,61-180,Telecom
+F00853,Medium,Medium,61-180,Credit Card
+F00854,Medium,Medium,61-180,Credit Card
+F00855,Medium,High,61-180,Credit Card
+F00856,Medium,High,61-180,Credit Card
+F00857,High,Medium,180+,Personal Loan
+F00858,Medium,High,61-180,Personal Loan
+F00859,Low,Low,0-60,Personal Loan
+F00860,Medium,Low,61-180,Personal Loan
+F00861,High,High,180+,Credit Card
+F00862,Low,Low,0-60,Personal Loan
+F00863,Medium,High,61-180,Telecom
+F00864,Medium,Medium,61-180,Telecom
+F00865,Medium,High,61-180,Personal Loan
+F00866,High,Medium,180+,Personal Loan
+F00867,Medium,Low,61-180,Credit Card
+F00868,Medium,Low,61-180,Credit Card
+F00869,Medium,Low,61-180,Telecom
+F00870,Low,High,0-60,Credit Card
+F00871,High,Medium,180+,Telecom
+F00872,Medium,Medium,61-180,Telecom
+F00873,Low,Low,0-60,Telecom
+F00874,Low,Low,0-60,Personal Loan
+F00875,Low,Medium,0-60,Credit Card
+F00876,Low,High,0-60,Credit Card
+F00877,Medium,Low,61-180,Telecom
+F00878,Low,High,0-60,Credit Card
+F00879,Low,Low,0-60,Credit Card
+F00880,Medium,Low,61-180,Personal Loan
+F00881,Medium,High,61-180,Personal Loan
+F00882,Low,High,0-60,Personal Loan
+F00883,Low,High,0-60,Credit Card
+F00884,Low,High,0-60,Credit Card
+F00885,High,Medium,180+,Personal Loan
+F00886,Medium,Medium,61-180,Credit Card
+F00887,Medium,Low,61-180,Personal Loan
+F00888,Medium,Low,61-180,Telecom
+F00889,Medium,Low,61-180,Telecom
+F00890,High,Medium,180+,Telecom
+F00891,Low,High,0-60,Telecom
+F00892,Low,Low,0-60,Credit Card
+F00893,Medium,Medium,61-180,Personal Loan
+F00894,Medium,Low,61-180,Telecom
+F00895,Low,Medium,0-60,Personal Loan
+F00896,Medium,High,61-180,Credit Card
+F00897,Medium,Medium,61-180,Personal Loan
+F00898,High,High,180+,Credit Card
+F00899,High,Low,180+,Personal Loan
+F00900,Low,High,0-60,Telecom
+F00901,Low,Medium,0-60,Credit Card
+F00902,Low,Low,0-60,Credit Card
+F00903,Medium,Low,61-180,Credit Card
+F00904,Low,Medium,0-60,Telecom
+F00905,Medium,High,61-180,Personal Loan
+F00906,Low,Medium,0-60,Credit Card
+F00907,Low,High,0-60,Credit Card
+F00908,Low,High,0-60,Credit Card
+F00909,Medium,Low,61-180,Telecom
+F00910,Low,High,0-60,Personal Loan
+F00911,Low,Low,0-60,Personal Loan
+F00912,Medium,Medium,61-180,Personal Loan
+F00913,Low,Medium,0-60,Personal Loan
+F00914,Medium,Low,61-180,Credit Card
+F00915,Medium,Low,61-180,Personal Loan
+F00916,High,High,180+,Credit Card
+F00917,Low,Low,0-60,Personal Loan
+F00918,Low,Medium,0-60,Personal Loan
+F00919,Low,Low,0-60,Telecom
+F00920,Low,Low,0-60,Personal Loan
+F00921,Low,Low,0-60,Credit Card
+F00922,Medium,High,61-180,Credit Card
+F00923,Low,Low,0-60,Telecom
+F00924,Medium,High,61-180,Telecom
+F00925,Medium,High,61-180,Personal Loan
+F00926,Medium,Low,61-180,Credit Card
+F00927,Low,High,0-60,Personal Loan
+F00928,Medium,Low,61-180,Credit Card
+F00929,High,Medium,180+,Personal Loan
+F00930,Low,Medium,0-60,Personal Loan
+F00931,Medium,High,61-180,Personal Loan
+F00932,Medium,Medium,61-180,Telecom
+F00933,Low,Low,0-60,Personal Loan
+F00934,High,High,180+,Credit Card
+F00935,Medium,Low,61-180,Personal Loan
+F00936,Low,High,0-60,Personal Loan
+F00937,Low,High,0-60,Telecom
+F00938,Low,High,0-60,Telecom
+F00939,Low,High,0-60,Credit Card
+F00940,Low,Medium,0-60,Credit Card
+F00941,Medium,Medium,61-180,Telecom
+F00942,Low,Medium,0-60,Credit Card
+F00943,Low,High,0-60,Credit Card
+F00944,Medium,Medium,61-180,Credit Card
+F00945,Low,High,0-60,Credit Card
+F00946,Medium,Medium,61-180,Telecom
+F00947,Medium,High,61-180,Credit Card
+F00948,Low,Medium,0-60,Credit Card
+F00949,Low,Medium,0-60,Telecom
+F00950,Low,Medium,0-60,Credit Card
+F00951,Medium,High,61-180,Personal Loan
+F00952,Medium,High,61-180,Credit Card
+F00953,Medium,Medium,61-180,Personal Loan
+F00954,Low,High,0-60,Personal Loan
+F00955,Low,Low,0-60,Personal Loan
+F00956,Medium,Medium,61-180,Credit Card
+F00957,Medium,Medium,61-180,Telecom
+F00958,Medium,Low,61-180,Personal Loan
+F00959,Low,High,0-60,Personal Loan
+F00960,Medium,High,61-180,Personal Loan
+F00961,Medium,High,61-180,Personal Loan
+F00962,Medium,Medium,61-180,Credit Card
+F00963,Medium,Medium,61-180,Personal Loan
+F00964,Low,Medium,0-60,Credit Card
+F00965,Low,Medium,0-60,Personal Loan
+F00966,Medium,Medium,61-180,Credit Card
+F00967,Medium,High,61-180,Credit Card
+F00968,Medium,Low,61-180,Credit Card
+F00969,High,High,180+,Credit Card
+F00970,Medium,High,61-180,Credit Card
+F00971,Medium,Medium,61-180,Personal Loan
+F00972,Low,Low,0-60,Credit Card
+F00973,Low,Low,0-60,Credit Card
+F00974,Low,High,0-60,Credit Card
+F00975,Low,Low,0-60,Personal Loan
+F00976,High,High,180+,Personal Loan
+F00977,Low,High,0-60,Telecom
+F00978,High,High,180+,Telecom
+F00979,Medium,High,61-180,Credit Card
+F00980,High,Medium,180+,Personal Loan
+F00981,Medium,Low,61-180,Personal Loan
+F00982,Low,Medium,0-60,Credit Card
+F00983,High,Medium,180+,Personal Loan
+F00984,Medium,Medium,61-180,Credit Card
+F00985,Low,High,0-60,Credit Card
+F00986,Medium,High,61-180,Credit Card
+F00987,Low,Medium,0-60,Credit Card
+F00988,Medium,Medium,61-180,Credit Card
+F00989,Low,Low,0-60,Telecom
+F00990,Medium,Medium,61-180,Credit Card
+F00991,Medium,High,61-180,Credit Card
+F00992,Low,Medium,0-60,Telecom
+F00993,Medium,Low,61-180,Credit Card
+F00994,Low,Low,0-60,Credit Card
+F00995,Low,Medium,0-60,Credit Card
+F00996,Low,Low,0-60,Credit Card
+F00997,Low,Low,0-60,Personal Loan
+F00998,Low,High,0-60,Telecom
+F00999,Medium,Low,61-180,Credit Card
+F01000,Medium,Low,61-180,Personal Loan
+F01001,Low,Medium,0-60,Credit Card
+F01002,Medium,High,61-180,Credit Card
+F01003,Low,Low,0-60,Personal Loan
+F01004,High,Medium,180+,Telecom
+F01005,Low,Medium,0-60,Personal Loan
+F01006,Medium,Medium,61-180,Credit Card
+F01007,Medium,Medium,61-180,Credit Card
+F01008,Medium,Medium,61-180,Personal Loan
+F01009,Medium,Medium,61-180,Personal Loan
+F01010,Low,Low,0-60,Personal Loan
+F01011,Low,High,0-60,Personal Loan
+F01012,Medium,High,61-180,Credit Card
+F01013,Medium,Medium,61-180,Credit Card
+F01014,Medium,Medium,61-180,Personal Loan
+F01015,Low,High,0-60,Personal Loan
+F01016,Medium,Low,61-180,Personal Loan
+F01017,Low,Medium,0-60,Credit Card
+F01018,Low,High,0-60,Telecom
+F01019,Low,High,0-60,Credit Card
+F01020,Low,Medium,0-60,Credit Card
+F01021,Low,High,0-60,Credit Card
+F01022,Medium,Low,61-180,Personal Loan
+F01023,Medium,High,61-180,Credit Card
+F01024,Low,Medium,0-60,Credit Card
+F01025,Low,Medium,0-60,Telecom
+F01026,Low,High,0-60,Telecom
+F01027,Medium,High,61-180,Credit Card
+F01028,Medium,Medium,61-180,Personal Loan
+F01029,Medium,Low,61-180,Credit Card
+F01030,Low,High,0-60,Credit Card
+F01031,Medium,Low,61-180,Personal Loan
+F01032,Medium,Low,61-180,Credit Card
+F01033,Low,Medium,0-60,Personal Loan
+F01034,Low,Medium,0-60,Personal Loan
+F01035,Low,Medium,0-60,Telecom
+F01036,High,Low,180+,Credit Card
+F01037,Medium,Medium,61-180,Credit Card
+F01038,Low,Medium,0-60,Personal Loan
+F01039,Low,Low,0-60,Credit Card
+F01040,Low,Low,0-60,Personal Loan
+F01041,Medium,Low,61-180,Credit Card
+F01042,Low,Low,0-60,Personal Loan
+F01043,Low,High,0-60,Personal Loan
+F01044,Low,Medium,0-60,Personal Loan
+F01045,Low,High,0-60,Telecom
+F01046,Low,Low,0-60,Personal Loan
+F01047,Low,Low,0-60,Credit Card
+F01048,Medium,Low,61-180,Personal Loan
+F01049,Low,Low,0-60,Telecom
+F01050,Low,Low,0-60,Credit Card
+F01051,Low,Medium,0-60,Telecom
+F01052,Low,High,0-60,Telecom
+F01053,Medium,High,61-180,Personal Loan
+F01054,Medium,Medium,61-180,Credit Card
+F01055,Medium,Medium,61-180,Telecom
+F01056,High,Medium,180+,Personal Loan
+F01057,Medium,High,61-180,Credit Card
+F01058,Medium,High,61-180,Credit Card
+F01059,High,Low,180+,Credit Card
+F01060,Medium,High,61-180,Personal Loan
+F01061,High,High,180+,Telecom
+F01062,Medium,Medium,61-180,Credit Card
+F01063,Medium,High,61-180,Personal Loan
+F01064,Low,Low,0-60,Credit Card
+F01065,Medium,High,61-180,Credit Card
+F01066,Low,Medium,0-60,Credit Card
+F01067,Medium,Medium,61-180,Telecom
+F01068,Low,Low,0-60,Personal Loan
+F01069,Medium,Low,61-180,Credit Card
+F01070,Medium,High,61-180,Credit Card
+F01071,Low,Low,0-60,Telecom
+F01072,Medium,Low,61-180,Credit Card
+F01073,Medium,Medium,61-180,Credit Card
+F01074,Low,Medium,0-60,Credit Card
+F01075,Low,High,0-60,Telecom
+F01076,Low,High,0-60,Credit Card
+F01077,Medium,High,61-180,Telecom
+F01078,Medium,High,61-180,Credit Card
+F01079,Medium,Medium,61-180,Telecom
+F01080,Medium,High,61-180,Credit Card
+F01081,Low,High,0-60,Credit Card
+F01082,Low,Low,0-60,Personal Loan
+F01083,Low,High,0-60,Credit Card
+F01084,Medium,Low,61-180,Credit Card
+F01085,Low,Medium,0-60,Credit Card
+F01086,Medium,High,61-180,Telecom
+F01087,Medium,Low,61-180,Personal Loan
+F01088,Low,High,0-60,Credit Card
+F01089,Low,Low,0-60,Telecom
+F01090,Low,High,0-60,Telecom
+F01091,Medium,Medium,61-180,Credit Card
+F01092,Medium,Medium,61-180,Credit Card
+F01093,Medium,Low,61-180,Telecom
+F01094,Low,Low,0-60,Telecom
+F01095,Medium,Medium,61-180,Telecom
+F01096,High,High,180+,Personal Loan
+F01097,Medium,Low,61-180,Credit Card
+F01098,Low,Medium,0-60,Personal Loan
+F01099,Medium,Low,61-180,Personal Loan
+F01100,Medium,Medium,61-180,Credit Card
+F01101,Low,Medium,0-60,Personal Loan
+F01102,Low,Low,0-60,Personal Loan
+F01103,Low,Low,0-60,Telecom
+F01104,Medium,Medium,61-180,Credit Card
+F01105,Medium,High,61-180,Credit Card
+F01106,High,Medium,180+,Personal Loan
+F01107,Low,High,0-60,Telecom
+F01108,Low,High,0-60,Credit Card
+F01109,Medium,High,61-180,Credit Card
+F01110,Medium,Low,61-180,Personal Loan
+F01111,Medium,Medium,61-180,Personal Loan
+F01112,Medium,Medium,61-180,Credit Card
+F01113,Low,High,0-60,Personal Loan
+F01114,Low,High,0-60,Telecom
+F01115,Medium,High,61-180,Personal Loan
+F01116,Low,Medium,0-60,Personal Loan
+F01117,Medium,High,61-180,Personal Loan
+F01118,Medium,Medium,61-180,Personal Loan
+F01119,Medium,Medium,61-180,Personal Loan
+F01120,Medium,Low,61-180,Personal Loan
+F01121,Medium,High,61-180,Personal Loan
+F01122,Low,High,0-60,Credit Card
+F01123,Medium,High,61-180,Personal Loan
+F01124,Medium,Low,61-180,Personal Loan
+F01125,Medium,High,61-180,Credit Card
+F01126,Low,Medium,0-60,Personal Loan
+F01127,Low,High,0-60,Personal Loan
+F01128,Low,Medium,0-60,Telecom
+F01129,High,Medium,180+,Personal Loan
+F01130,Low,Medium,0-60,Personal Loan
+F01131,Low,Medium,0-60,Personal Loan
+F01132,Medium,High,61-180,Credit Card
+F01133,Low,Low,0-60,Telecom
+F01134,Low,Low,0-60,Personal Loan
+F01135,High,Medium,180+,Personal Loan
+F01136,Medium,High,61-180,Credit Card
+F01137,Medium,Low,61-180,Telecom
+F01138,Medium,High,61-180,Personal Loan
+F01139,Low,Low,0-60,Credit Card
+F01140,Low,Medium,0-60,Telecom
+F01141,Low,Medium,0-60,Personal Loan
+F01142,Low,Medium,0-60,Credit Card
+F01143,Medium,Low,61-180,Telecom
+F01144,Low,High,0-60,Personal Loan
+F01145,Medium,Medium,61-180,Telecom
+F01146,Medium,High,61-180,Credit Card
+F01147,Low,High,0-60,Personal Loan
+F01148,Low,Medium,0-60,Credit Card
+F01149,Low,Low,0-60,Credit Card
+F01150,High,Medium,180+,Personal Loan
+F01151,High,Medium,180+,Telecom
+F01152,Medium,Low,61-180,Telecom
+F01153,Medium,High,61-180,Personal Loan
+F01154,Medium,Low,61-180,Telecom
+F01155,Low,Low,0-60,Telecom
+F01156,Low,Medium,0-60,Credit Card
+F01157,Medium,Low,61-180,Telecom
+F01158,High,Low,180+,Personal Loan
+F01159,Medium,Low,61-180,Credit Card
+F01160,Low,High,0-60,Personal Loan
+F01161,Low,High,0-60,Credit Card
+F01162,Low,Medium,0-60,Personal Loan
+F01163,Low,Medium,0-60,Personal Loan
+F01164,Medium,High,61-180,Credit Card
+F01165,High,Low,180+,Personal Loan
+F01166,Medium,Medium,61-180,Credit Card
+F01167,Medium,Medium,61-180,Personal Loan
+F01168,Medium,Low,61-180,Credit Card
+F01169,Low,Low,0-60,Telecom
+F01170,Low,Low,0-60,Telecom
+F01171,Low,Low,0-60,Credit Card
+F01172,Medium,Low,61-180,Credit Card
+F01173,Low,High,0-60,Personal Loan
+F01174,Medium,Low,61-180,Personal Loan
+F01175,Low,Medium,0-60,Credit Card
+F01176,Medium,High,61-180,Personal Loan
+F01177,Low,Medium,0-60,Credit Card
+F01178,Medium,Low,61-180,Personal Loan
+F01179,Medium,Medium,61-180,Credit Card
+F01180,Medium,Low,61-180,Personal Loan
+F01181,Low,Medium,0-60,Telecom
+F01182,Low,Medium,0-60,Credit Card
+F01183,Low,Low,0-60,Personal Loan
+F01184,High,Medium,180+,Telecom
+F01185,Medium,High,61-180,Personal Loan
+F01186,High,Medium,180+,Personal Loan
+F01187,Low,High,0-60,Telecom
+F01188,High,High,180+,Personal Loan
+F01189,Medium,Medium,61-180,Personal Loan
+F01190,Medium,High,61-180,Telecom
+F01191,Medium,High,61-180,Credit Card
+F01192,Low,Medium,0-60,Credit Card
+F01193,High,Low,180+,Personal Loan
+F01194,Low,Low,0-60,Credit Card
+F01195,Low,High,0-60,Credit Card
+F01196,Low,High,0-60,Credit Card
+F01197,Low,Low,0-60,Telecom
+F01198,High,High,180+,Telecom
+F01199,High,Low,180+,Personal Loan
+F01200,Low,Medium,0-60,Personal Loan
+F01201,Medium,High,61-180,Personal Loan
+F01202,Low,Medium,0-60,Telecom
+F01203,Low,Low,0-60,Telecom
+F01204,High,Low,180+,Credit Card
+F01205,Medium,Medium,61-180,Personal Loan
+F01206,Medium,High,61-180,Personal Loan
+F01207,Low,Medium,0-60,Credit Card
+F01208,Medium,Medium,61-180,Telecom
+F01209,Medium,High,61-180,Credit Card
+F01210,Low,Low,0-60,Credit Card
+F01211,Low,Medium,0-60,Credit Card
+F01212,Medium,Medium,61-180,Telecom
+F01213,Medium,Low,61-180,Personal Loan
+F01214,Low,Medium,0-60,Credit Card
+F01215,Low,Low,0-60,Personal Loan
+F01216,Medium,High,61-180,Credit Card
+F01217,Low,Low,0-60,Credit Card
+F01218,Medium,Low,61-180,Credit Card
+F01219,Medium,Medium,61-180,Telecom
+F01220,Medium,Low,61-180,Credit Card
+F01221,Low,Low,0-60,Credit Card
+F01222,High,Medium,180+,Personal Loan
+F01223,Medium,Low,61-180,Personal Loan
+F01224,Low,Medium,0-60,Credit Card
+F01225,Medium,High,61-180,Personal Loan
+F01226,High,Low,180+,Personal Loan
+F01227,Low,High,0-60,Credit Card
+F01228,Medium,Low,61-180,Credit Card
+F01229,Low,Low,0-60,Telecom
+F01230,Medium,High,61-180,Credit Card
+F01231,Medium,High,61-180,Credit Card

@@ -1,0 +1,10 @@
+macro_context_id,region_id,month,unemployment_rate,cost_of_living_index,economic_stress_flag
+M001,R01,2026-01,7.2,123,Medium
+M002,R01,2026-02,6.3,102,Low
+M003,R01,2026-03,8.2,101,Medium
+M004,R02,2026-01,7.5,117,Medium
+M005,R02,2026-02,5.8,118,Low
+M006,R02,2026-03,7.0,102,Medium
+M007,R03,2026-01,8.7,116,High
+M008,R03,2026-02,5.8,118,Low
+M009,R03,2026-03,9.2,100,High

@@ -1,0 +1,1232 @@
+signal_id,account_id,customer_id,past_payment_frequency,avg_payment_percent,broken_promises_count,last_contact_outcome,last_call_sentiment,digital_engagement_score,response_latency_days
+S00001,A10001,C0001,Regular,5.19,1,Connected,Neutral,38,4
+S00002,A10002,C0002,Regular,5.25,5,No Answer,Distressed,62,1
+S00003,A10003,C0003,Irregular,8.96,0,Connected,Angry,27,3
+S00004,A10004,C0003,Irregular,5.16,4,Connected,Angry,91,6
+S00005,A10005,C0004,Regular,2.84,3,No Answer,Cooperative,45,5
+S00006,A10006,C0005,Regular,0.76,6,No Answer,Distressed,74,5
+S00007,A10007,C0006,None,9.32,3,No Answer,Neutral,38,4
+S00008,A10008,C0007,Regular,9.84,2,Connected,Neutral,21,3
+S00009,A10009,C0008,None,0.74,0,Connected,Angry,62,19
+S00010,A10010,C0009,Irregular,7.19,3,No Answer,Cooperative,86,2
+S00011,A10011,C0010,Regular,2.96,5,Connected,Cooperative,63,12
+S00012,A10012,C0011,None,9.51,6,Connected,Cooperative,37,2
+S00013,A10013,C0012,None,7.72,1,Connected,Angry,98,12
+S00014,A10014,C0013,None,5.95,5,Connected,Neutral,53,0
+S00015,A10015,C0013,Irregular,4.12,2,Connected,Neutral,35,15
+S00016,A10016,C0014,Regular,4.33,1,Refused,Neutral,31,5
+S00017,A10017,C0015,Irregular,8.57,0,Refused,Angry,58,12
+S00018,A10018,C0016,Irregular,3.4,6,Connected,Distressed,23,15
+S00019,A10019,C0016,Irregular,4.24,1,Refused,Angry,51,2
+S00020,A10020,C0017,Irregular,8.96,6,Refused,Cooperative,64,3
+S00021,A10021,C0018,Irregular,0.78,6,Connected,Neutral,56,10
+S00022,A10022,C0019,Irregular,4.11,0,No Answer,Distressed,70,13
+S00023,A10023,C0020,Irregular,2.74,0,Refused,Angry,48,1
+S00024,A10024,C0021,Irregular,1.55,5,Refused,Neutral,47,10
+S00025,A10025,C0022,Regular,8.82,5,Refused,Cooperative,97,3
+S00026,A10026,C0022,None,5.71,3,Refused,Neutral,43,18
+S00027,A10027,C0023,None,0.84,5,No Answer,Cooperative,24,18
+S00028,A10028,C0023,Regular,5.89,3,Refused,Distressed,98,15
+S00029,A10029,C0024,None,0.99,0,Refused,Neutral,34,9
+S00030,A10030,C0024,Irregular,8.29,0,Refused,Angry,59,8
+S00031,A10031,C0025,Irregular,1.2,5,Connected,Distressed,37,14
+S00032,A10032,C0026,Irregular,9.66,1,Refused,Neutral,68,5
+S00033,A10033,C0027,Irregular,9.08,3,No Answer,Cooperative,14,0
+S00034,A10034,C0027,None,3.24,4,No Answer,Angry,62,17
+S00035,A10035,C0028,None,3.17,6,Refused,Neutral,35,18
+S00036,A10036,C0029,Irregular,3.23,5,No Answer,Angry,53,14
+S00037,A10037,C0030,Regular,5.91,0,Refused,Neutral,41,9
+S00038,A10038,C0031,Regular,2.01,3,No Answer,Cooperative,65,3
+S00039,A10039,C0032,None,8.9,3,Refused,Cooperative,34,15
+S00040,A10040,C0033,None,8.2,6,Connected,Neutral,65,3
+S00041,A10041,C0034,Irregular,5.6,0,Refused,Neutral,19,18
+S00042,A10042,C0035,Regular,9.75,1,Connected,Neutral,19,6
+S00043,A10043,C0036,Regular,4.52,2,No Answer,Cooperative,76,14
+S00044,A10044,C0037,Irregular,1.49,5,No Answer,Neutral,95,1
+S00045,A10045,C0037,None,5.8,1,Refused,Distressed,52,18
+S00046,A10046,C0038,Regular,4.61,1,Connected,Neutral,53,14
+S00047,A10047,C0038,Regular,8.3,2,No Answer,Angry,67,7
+S00048,A10048,C0039,Irregular,3.35,0,Connected,Distressed,15,14
+S00049,A10049,C0040,Irregular,4.78,1,Connected,Cooperative,61,11
+S00050,A10050,C0041,None,8.9,3,No Answer,Neutral,17,9
+S00051,A10051,C0042,Irregular,6.63,2,Connected,Cooperative,13,1
+S00052,A10052,C0043,Irregular,7.25,3,Connected,Neutral,84,6
+S00053,A10053,C0044,Regular,1.65,3,Refused,Cooperative,51,18
+S00054,A10054,C0045,Regular,4.29,0,Refused,Cooperative,81,10
+S00055,A10055,C0046,Irregular,3.6,6,No Answer,Cooperative,47,8
+S00056,A10056,C0046,None,8.67,5,No Answer,Cooperative,33,12
+S00057,A10057,C0047,None,1.87,2,No Answer,Angry,11,6
+S00058,A10058,C0048,Irregular,3.67,3,No Answer,Neutral,40,3
+S00059,A10059,C0048,Irregular,7.48,1,Refused,Cooperative,14,4
+S00060,A10060,C0049,Irregular,4.68,3,Connected,Angry,54,20
+S00061,A10061,C0049,Regular,2.74,0,No Answer,Cooperative,49,7
+S00062,A10062,C0050,Regular,7.33,0,No Answer,Distressed,40,16
+S00063,A10063,C0050,Irregular,4.43,2,Refused,Neutral,46,5
+S00064,A10064,C0051,Regular,5.88,2,No Answer,Distressed,75,4
+S00065,A10065,C0051,Irregular,2.18,4,No Answer,Angry,94,4
+S00066,A10066,C0052,Irregular,6.51,5,Refused,Distressed,45,10
+S00067,A10067,C0052,Regular,3.54,1,No Answer,Distressed,21,12
+S00068,A10068,C0053,None,1.42,0,Refused,Neutral,60,17
+S00069,A10069,C0053,Irregular,0.5,0,No Answer,Neutral,67,15
+S00070,A10070,C0054,Irregular,4.69,0,No Answer,Angry,71,18
+S00071,A10071,C0055,Regular,2.34,4,Connected,Cooperative,59,18
+S00072,A10072,C0055,None,8.07,2,Refused,Distressed,75,5
+S00073,A10073,C0056,Regular,0.56,5,No Answer,Cooperative,68,0
+S00074,A10074,C0057,None,1.47,6,Refused,Neutral,25,15
+S00075,A10075,C0057,Irregular,4.14,5,Connected,Distressed,97,3
+S00076,A10076,C0058,Regular,9.86,6,Connected,Cooperative,83,0
+S00077,A10077,C0059,Regular,7.68,4,Refused,Neutral,39,19
+S00078,A10078,C0060,Irregular,3.06,6,Refused,Neutral,39,11
+S00079,A10079,C0061,Irregular,7.62,2,Connected,Distressed,89,2
+S00080,A10080,C0062,Regular,6.09,2,No Answer,Neutral,35,4
+S00081,A10081,C0063,Regular,1.97,4,Refused,Cooperative,72,17
+S00082,A10082,C0063,Regular,4.84,4,No Answer,Angry,75,3
+S00083,A10083,C0064,Regular,6.89,0,No Answer,Neutral,51,20
+S00084,A10084,C0065,Irregular,2.04,3,No Answer,Neutral,30,3
+S00085,A10085,C0066,Irregular,4.17,5,Refused,Neutral,69,7
+S00086,A10086,C0067,None,9.01,4,Connected,Neutral,47,14
+S00087,A10087,C0068,Irregular,7.23,2,Connected,Neutral,47,0
+S00088,A10088,C0069,None,7.77,0,No Answer,Angry,98,16
+S00089,A10089,C0070,Irregular,1.24,3,No Answer,Cooperative,52,0
+S00090,A10090,C0071,Irregular,3.26,6,Refused,Neutral,86,12
+S00091,A10091,C0072,Irregular,7.11,6,Refused,Cooperative,46,19
+S00092,A10092,C0073,Regular,5.25,1,No Answer,Cooperative,86,14
+S00093,A10093,C0074,None,8.65,3,Connected,Distressed,11,14
+S00094,A10094,C0074,Irregular,7.33,2,Refused,Distressed,33,9
+S00095,A10095,C0075,Regular,6.9,3,Refused,Neutral,37,11
+S00096,A10096,C0075,Regular,1.15,4,No Answer,Neutral,57,13
+S00097,A10097,C0076,Regular,5.89,5,Refused,Cooperative,77,2
+S00098,A10098,C0076,Irregular,8.97,6,No Answer,Neutral,60,5
+S00099,A10099,C0077,Regular,4.6,1,Connected,Distressed,23,3
+S00100,A10100,C0078,Irregular,2.52,6,Connected,Cooperative,18,16
+S00101,A10101,C0079,None,6.68,4,Connected,Cooperative,48,15
+S00102,A10102,C0079,Regular,7.28,3,No Answer,Cooperative,13,19
+S00103,A10103,C0080,Irregular,9.28,0,Connected,Cooperative,27,14
+S00104,A10104,C0081,Irregular,8.79,5,Connected,Neutral,95,0
+S00105,A10105,C0081,Regular,2.19,4,Connected,Cooperative,69,11
+S00106,A10106,C0082,None,5.46,5,Refused,Angry,67,3
+S00107,A10107,C0083,Irregular,3.51,5,Refused,Neutral,39,11
+S00108,A10108,C0084,None,4.99,6,Refused,Cooperative,48,9
+S00109,A10109,C0085,None,5.69,5,Connected,Neutral,51,4
+S00110,A10110,C0086,Regular,5.48,6,Connected,Cooperative,46,6
+S00111,A10111,C0086,None,3.69,0,Connected,Neutral,86,10
+S00112,A10112,C0087,Regular,0.51,6,Refused,Angry,97,10
+S00113,A10113,C0088,Irregular,9.97,1,Refused,Distressed,55,9
+S00114,A10114,C0089,Irregular,1.5,1,Connected,Distressed,80,13
+S00115,A10115,C0090,Irregular,7.14,6,Connected,Cooperative,74,1
+S00116,A10116,C0091,None,2.05,0,Refused,Distressed,62,10
+S00117,A10117,C0092,None,9.83,2,No Answer,Distressed,45,2
+S00118,A10118,C0093,None,7.2,4,Refused,Neutral,72,5
+S00119,A10119,C0094,Irregular,9.65,1,No Answer,Distressed,86,10
+S00120,A10120,C0095,Irregular,8.94,0,No Answer,Neutral,79,15
+S00121,A10121,C0096,Regular,3.58,1,No Answer,Cooperative,94,12
+S00122,A10122,C0097,Regular,1.93,2,No Answer,Neutral,98,16
+S00123,A10123,C0098,None,3.28,3,Connected,Distressed,19,2
+S00124,A10124,C0099,None,4.45,5,Refused,Cooperative,64,14
+S00125,A10125,C0100,Irregular,9.08,3,Refused,Neutral,90,11
+S00126,A10126,C0100,Regular,2.17,4,Connected,Cooperative,88,12
+S00127,A10127,C0101,Irregular,6.25,1,Connected,Distressed,52,8
+S00128,A10128,C0102,Irregular,0.79,2,Connected,Angry,65,10
+S00129,A10129,C0103,Irregular,6.37,1,Refused,Distressed,85,10
+S00130,A10130,C0104,Regular,9.99,6,No Answer,Distressed,32,5
+S00131,A10131,C0105,None,7.65,5,Refused,Neutral,73,19
+S00132,A10132,C0106,Irregular,1.3,4,Connected,Cooperative,29,10
+S00133,A10133,C0106,Irregular,5.17,1,No Answer,Cooperative,37,15
+S00134,A10134,C0107,Regular,2.36,5,No Answer,Neutral,95,0
+S00135,A10135,C0108,Regular,2.46,3,Connected,Neutral,63,18
+S00136,A10136,C0109,Regular,9.25,3,No Answer,Neutral,55,14
+S00137,A10137,C0110,Regular,5.19,3,Connected,Angry,28,6
+S00138,A10138,C0111,Regular,4.38,2,Connected,Neutral,72,4
+S00139,A10139,C0112,None,5.03,3,Refused,Neutral,93,11
+S00140,A10140,C0112,Regular,6.56,6,Connected,Cooperative,22,9
+S00141,A10141,C0113,None,5.61,1,Refused,Cooperative,77,14
+S00142,A10142,C0114,Regular,8.44,1,Refused,Cooperative,18,20
+S00143,A10143,C0115,None,2.86,2,Connected,Neutral,88,12
+S00144,A10144,C0116,Irregular,4.56,6,No Answer,Neutral,41,5
+S00145,A10145,C0117,None,2.18,0,Connected,Distressed,91,12
+S00146,A10146,C0118,Regular,7.72,1,Connected,Cooperative,76,8
+S00147,A10147,C0119,Irregular,5.72,6,Connected,Cooperative,65,19
+S00148,A10148,C0120,None,4.3,2,No Answer,Cooperative,27,13
+S00149,A10149,C0120,Irregular,3.95,0,No Answer,Angry,85,3
+S00150,A10150,C0121,Regular,9.71,1,Connected,Neutral,19,6
+S00151,A10151,C0121,Regular,3.45,5,No Answer,Distressed,90,3
+S00152,A10152,C0122,None,8.88,4,Refused,Neutral,12,18
+S00153,A10153,C0122,Irregular,9.48,3,No Answer,Angry,21,8
+S00154,A10154,C0123,Irregular,4.36,5,Connected,Neutral,87,16
+S00155,A10155,C0124,Regular,5.51,3,No Answer,Angry,30,15
+S00156,A10156,C0124,Irregular,0.8,3,Connected,Angry,88,3
+S00157,A10157,C0125,None,7.85,5,No Answer,Cooperative,64,4
+S00158,A10158,C0125,Regular,3.44,2,Refused,Angry,78,9
+S00159,A10159,C0126,Irregular,6.52,6,Refused,Cooperative,81,16
+S00160,A10160,C0127,Irregular,9.02,0,No Answer,Distressed,98,1
+S00161,A10161,C0128,Irregular,8.98,2,Connected,Distressed,19,5
+S00162,A10162,C0129,Irregular,3.46,5,No Answer,Neutral,58,6
+S00163,A10163,C0130,Irregular,1.17,6,Refused,Cooperative,75,2
+S00164,A10164,C0131,None,8.2,0,No Answer,Cooperative,56,11
+S00165,A10165,C0132,None,7.75,4,No Answer,Neutral,78,1
+S00166,A10166,C0132,Irregular,8.78,6,Connected,Distressed,85,9
+S00167,A10167,C0133,Irregular,3.8,3,No Answer,Cooperative,58,5
+S00168,A10168,C0134,None,2.12,4,Connected,Neutral,27,17
+S00169,A10169,C0135,Irregular,9.68,4,Refused,Cooperative,80,11
+S00170,A10170,C0136,Regular,9.08,2,No Answer,Cooperative,91,6
+S00171,A10171,C0137,None,2.37,2,No Answer,Cooperative,90,9
+S00172,A10172,C0137,Irregular,7.04,1,Connected,Cooperative,12,5
+S00173,A10173,C0138,Irregular,3.49,3,No Answer,Neutral,97,8
+S00174,A10174,C0139,Regular,2.96,4,No Answer,Cooperative,31,3
+S00175,A10175,C0140,Irregular,9.51,1,Connected,Cooperative,88,13
+S00176,A10176,C0141,Regular,3.82,6,Refused,Angry,59,7
+S00177,A10177,C0142,Irregular,3.09,1,Connected,Cooperative,87,4
+S00178,A10178,C0143,Irregular,7.78,6,No Answer,Cooperative,75,11
+S00179,A10179,C0144,Irregular,2.63,3,No Answer,Neutral,94,2
+S00180,A10180,C0145,None,7.12,4,Connected,Distressed,86,13
+S00181,A10181,C0146,Regular,6.73,1,Connected,Cooperative,43,15
+S00182,A10182,C0147,Regular,0.57,1,Connected,Cooperative,54,6
+S00183,A10183,C0147,None,1.49,6,Connected,Neutral,53,15
+S00184,A10184,C0148,Irregular,6.78,3,Connected,Neutral,52,17
+S00185,A10185,C0148,Irregular,3.8,6,Refused,Angry,40,9
+S00186,A10186,C0149,Irregular,9.36,3,Refused,Neutral,66,0
+S00187,A10187,C0149,None,5.36,5,Refused,Neutral,13,3
+S00188,A10188,C0150,Irregular,7.47,5,No Answer,Distressed,79,0
+S00189,A10189,C0151,Regular,8.61,3,No Answer,Cooperative,49,6
+S00190,A10190,C0152,Irregular,3.72,2,Refused,Cooperative,63,17
+S00191,A10191,C0153,Irregular,7.32,4,No Answer,Neutral,80,14
+S00192,A10192,C0154,Irregular,1.31,2,Connected,Cooperative,55,8
+S00193,A10193,C0155,Regular,6.65,5,Connected,Cooperative,98,1
+S00194,A10194,C0155,Irregular,0.71,1,No Answer,Cooperative,53,16
+S00195,A10195,C0156,Irregular,0.73,1,Refused,Neutral,20,13
+S00196,A10196,C0157,Regular,0.5,2,No Answer,Distressed,66,2
+S00197,A10197,C0158,Irregular,2.75,4,Refused,Neutral,46,0
+S00198,A10198,C0158,Irregular,6.61,4,No Answer,Distressed,93,3
+S00199,A10199,C0159,Regular,5.53,4,Connected,Angry,28,18
+S00200,A10200,C0160,Regular,8.68,6,No Answer,Distressed,60,9
+S00201,A10201,C0160,Irregular,1.81,0,Refused,Distressed,61,6
+S00202,A10202,C0161,None,7.4,2,Connected,Cooperative,99,19
+S00203,A10203,C0162,Regular,5.19,1,Refused,Distressed,93,9
+S00204,A10204,C0163,Regular,3.14,6,Connected,Cooperative,38,5
+S00205,A10205,C0164,None,2.09,5,No Answer,Cooperative,84,10
+S00206,A10206,C0165,Irregular,8.18,6,Connected,Cooperative,93,8
+S00207,A10207,C0166,Regular,0.98,5,No Answer,Angry,69,5
+S00208,A10208,C0167,None,1.88,2,No Answer,Cooperative,39,18
+S00209,A10209,C0168,Irregular,9.97,1,No Answer,Neutral,63,14
+S00210,A10210,C0169,Irregular,2.22,0,No Answer,Distressed,28,17
+S00211,A10211,C0169,None,9.03,1,Connected,Neutral,44,18
+S00212,A10212,C0170,None,5.69,1,Connected,Cooperative,15,5
+S00213,A10213,C0171,Regular,7.34,2,No Answer,Distressed,11,18
+S00214,A10214,C0171,Irregular,4.88,5,Connected,Angry,84,7
+S00215,A10215,C0172,Regular,3.05,2,Connected,Cooperative,30,16
+S00216,A10216,C0173,Irregular,4.84,1,Connected,Neutral,87,19
+S00217,A10217,C0174,Regular,8.01,1,Connected,Cooperative,85,2
+S00218,A10218,C0175,None,4.08,4,No Answer,Distressed,67,0
+S00219,A10219,C0176,None,1.87,3,Connected,Distressed,12,17
+S00220,A10220,C0177,Regular,8.69,1,Connected,Cooperative,53,16
+S00221,A10221,C0177,Regular,8.49,5,No Answer,Cooperative,71,10
+S00222,A10222,C0178,Irregular,9.08,2,No Answer,Distressed,26,14
+S00223,A10223,C0179,Regular,0.65,4,Connected,Neutral,52,17
+S00224,A10224,C0180,None,1.25,4,Connected,Cooperative,80,9
+S00225,A10225,C0181,Irregular,2.92,6,Refused,Distressed,43,5
+S00226,A10226,C0182,Irregular,3.68,1,No Answer,Cooperative,50,7
+S00227,A10227,C0183,Irregular,4.13,6,Refused,Neutral,19,10
+S00228,A10228,C0184,Irregular,8.13,2,Connected,Neutral,25,15
+S00229,A10229,C0185,Irregular,8.51,0,Connected,Cooperative,55,15
+S00230,A10230,C0185,Irregular,7.59,4,No Answer,Distressed,15,11
+S00231,A10231,C0186,Regular,2.97,3,No Answer,Distressed,68,6
+S00232,A10232,C0187,Irregular,5.7,1,No Answer,Cooperative,27,15
+S00233,A10233,C0188,Regular,5.8,4,Refused,Distressed,90,12
+S00234,A10234,C0189,Irregular,5.03,3,Connected,Cooperative,51,12
+S00235,A10235,C0190,Regular,2.11,1,Connected,Cooperative,73,4
+S00236,A10236,C0191,Irregular,7.88,6,No Answer,Neutral,96,17
+S00237,A10237,C0192,Irregular,9.03,2,Connected,Cooperative,68,10
+S00238,A10238,C0192,Regular,7.82,5,Refused,Neutral,65,0
+S00239,A10239,C0193,None,3.06,1,Connected,Neutral,25,11
+S00240,A10240,C0194,Regular,7.62,4,Connected,Cooperative,55,20
+S00241,A10241,C0195,Irregular,8.03,0,No Answer,Neutral,82,11
+S00242,A10242,C0196,Irregular,5.9,5,Connected,Distressed,67,4
+S00243,A10243,C0197,Irregular,4.88,4,Connected,Cooperative,57,10
+S00244,A10244,C0198,Irregular,5.87,4,No Answer,Neutral,90,2
+S00245,A10245,C0199,None,7.41,0,Connected,Distressed,74,0
+S00246,A10246,C0200,None,1.59,5,Connected,Distressed,62,15
+S00247,A10247,C0201,Regular,3.69,3,No Answer,Distressed,79,9
+S00248,A10248,C0202,Regular,7.69,2,No Answer,Neutral,58,18
+S00249,A10249,C0203,Regular,6.04,1,Refused,Distressed,94,15
+S00250,A10250,C0204,None,4.11,2,Connected,Cooperative,85,17
+S00251,A10251,C0205,Regular,7.75,1,No Answer,Cooperative,12,11
+S00252,A10252,C0206,Irregular,2.82,4,Connected,Neutral,50,11
+S00253,A10253,C0207,None,5.54,6,Refused,Neutral,45,17
+S00254,A10254,C0208,Regular,3.31,2,No Answer,Neutral,47,13
+S00255,A10255,C0208,Regular,7.22,4,Connected,Angry,51,16
+S00256,A10256,C0209,Irregular,0.82,2,Connected,Distressed,28,18
+S00257,A10257,C0210,None,5.58,1,No Answer,Neutral,57,17
+S00258,A10258,C0211,None,7.02,6,Connected,Neutral,70,19
+S00259,A10259,C0212,Irregular,1.44,6,No Answer,Angry,34,20
+S00260,A10260,C0213,Regular,4.19,3,No Answer,Neutral,82,19
+S00261,A10261,C0213,Regular,7.26,6,No Answer,Cooperative,28,13
+S00262,A10262,C0214,Irregular,7.9,1,Connected,Angry,84,2
+S00263,A10263,C0214,Regular,3.92,4,No Answer,Neutral,63,14
+S00264,A10264,C0215,Irregular,8.8,5,Connected,Angry,12,1
+S00265,A10265,C0216,Irregular,5.5,0,Connected,Neutral,91,15
+S00266,A10266,C0217,Regular,0.54,3,Connected,Neutral,91,10
+S00267,A10267,C0218,Irregular,8.29,0,Connected,Angry,66,6
+S00268,A10268,C0219,Irregular,6.03,6,No Answer,Cooperative,50,1
+S00269,A10269,C0220,Regular,4.31,4,No Answer,Distressed,59,17
+S00270,A10270,C0220,Irregular,5.64,0,Connected,Neutral,55,17
+S00271,A10271,C0221,Irregular,8.47,6,Refused,Cooperative,20,1
+S00272,A10272,C0222,None,9.11,0,No Answer,Neutral,90,16
+S00273,A10273,C0222,Irregular,4.36,6,No Answer,Angry,24,8
+S00274,A10274,C0223,Regular,6.22,5,Refused,Neutral,35,19
+S00275,A10275,C0224,None,5.19,0,Connected,Neutral,57,17
+S00276,A10276,C0225,Irregular,4.13,4,Refused,Cooperative,35,20
+S00277,A10277,C0225,Regular,7.06,2,No Answer,Distressed,14,13
+S00278,A10278,C0226,Regular,7.43,6,Connected,Distressed,18,17
+S00279,A10279,C0227,None,9.03,0,No Answer,Cooperative,44,9
+S00280,A10280,C0228,None,0.76,1,No Answer,Angry,88,7
+S00281,A10281,C0229,Regular,8.51,4,No Answer,Distressed,61,6
+S00282,A10282,C0230,Irregular,3.94,5,Refused,Cooperative,53,12
+S00283,A10283,C0230,Irregular,6.15,0,No Answer,Cooperative,25,4
+S00284,A10284,C0231,None,7.88,6,Connected,Distressed,70,17
+S00285,A10285,C0232,None,2.83,0,Connected,Neutral,21,10
+S00286,A10286,C0233,Irregular,0.93,2,Refused,Neutral,90,2
+S00287,A10287,C0234,None,2.75,2,Refused,Cooperative,86,9
+S00288,A10288,C0235,None,9.31,5,No Answer,Neutral,64,19
+S00289,A10289,C0236,Irregular,2.11,4,No Answer,Neutral,46,20
+S00290,A10290,C0237,Irregular,4.85,3,Connected,Cooperative,55,17
+S00291,A10291,C0238,Regular,5.96,6,Connected,Cooperative,43,1
+S00292,A10292,C0239,None,1.25,3,Connected,Cooperative,36,20
+S00293,A10293,C0239,Regular,7.37,5,Refused,Cooperative,34,13
+S00294,A10294,C0240,Regular,4.31,5,Refused,Neutral,32,0
+S00295,A10295,C0241,Regular,8.69,4,No Answer,Neutral,86,19
+S00296,A10296,C0242,Irregular,5.66,0,No Answer,Cooperative,89,15
+S00297,A10297,C0243,Irregular,6.98,2,Connected,Neutral,12,0
+S00298,A10298,C0243,None,7.2,6,No Answer,Angry,73,19
+S00299,A10299,C0244,None,7.17,3,Connected,Cooperative,83,13
+S00300,A10300,C0245,Irregular,1.1,1,Refused,Angry,58,20
+S00301,A10301,C0246,Irregular,1.95,1,Connected,Neutral,16,20
+S00302,A10302,C0247,Irregular,9.74,6,Connected,Angry,63,17
+S00303,A10303,C0248,Regular,7.48,0,Refused,Neutral,77,3
+S00304,A10304,C0249,Regular,3.6,2,Connected,Cooperative,69,9
+S00305,A10305,C0250,Irregular,1.75,4,Refused,Cooperative,42,10
+S00306,A10306,C0250,Irregular,5.06,6,Connected,Distressed,23,7
+S00307,A10307,C0251,Irregular,8.12,3,No Answer,Cooperative,47,13
+S00308,A10308,C0252,Regular,9.08,5,Refused,Cooperative,57,11
+S00309,A10309,C0253,Irregular,3.29,4,Connected,Neutral,62,16
+S00310,A10310,C0254,Irregular,4.03,4,Connected,Cooperative,22,18
+S00311,A10311,C0254,Regular,6.16,3,Refused,Neutral,13,6
+S00312,A10312,C0255,Irregular,8.25,4,Connected,Neutral,56,19
+S00313,A10313,C0255,None,7.31,6,Connected,Neutral,46,12
+S00314,A10314,C0256,Irregular,6.84,0,No Answer,Cooperative,62,19
+S00315,A10315,C0257,Regular,1.56,6,Connected,Cooperative,25,13
+S00316,A10316,C0257,Irregular,4.23,5,Connected,Cooperative,76,3
+S00317,A10317,C0258,Irregular,9.22,2,Refused,Angry,51,1
+S00318,A10318,C0259,Regular,2.65,1,No Answer,Neutral,87,9
+S00319,A10319,C0260,Regular,6.88,5,Refused,Cooperative,97,13
+S00320,A10320,C0261,Regular,6.27,4,No Answer,Distressed,77,8
+S00321,A10321,C0262,None,2.73,3,No Answer,Cooperative,60,3
+S00322,A10322,C0262,Regular,3.9,4,Connected,Distressed,49,12
+S00323,A10323,C0263,Irregular,4.57,5,Connected,Neutral,25,12
+S00324,A10324,C0263,Irregular,4.21,5,Refused,Neutral,65,7
+S00325,A10325,C0264,Regular,6.3,0,Connected,Distressed,90,14
+S00326,A10326,C0265,None,6.33,1,Refused,Cooperative,65,13
+S00327,A10327,C0266,Regular,5.22,5,No Answer,Angry,99,18
+S00328,A10328,C0267,None,2.24,2,Connected,Cooperative,70,20
+S00329,A10329,C0268,Irregular,4.36,4,Connected,Neutral,19,5
+S00330,A10330,C0269,Regular,1.02,5,Connected,Cooperative,44,4
+S00331,A10331,C0270,None,7.74,5,No Answer,Distressed,89,5
+S00332,A10332,C0271,None,7.87,6,Refused,Neutral,68,14
+S00333,A10333,C0272,Irregular,1.91,1,Refused,Neutral,51,19
+S00334,A10334,C0273,None,6.09,3,Connected,Angry,84,1
+S00335,A10335,C0274,Regular,4.28,0,No Answer,Neutral,67,4
+S00336,A10336,C0275,Regular,0.68,4,Connected,Cooperative,29,11
+S00337,A10337,C0276,Irregular,4.55,2,Connected,Angry,65,14
+S00338,A10338,C0277,None,5.83,0,Connected,Neutral,90,17
+S00339,A10339,C0277,Regular,4.26,4,Connected,Distressed,35,1
+S00340,A10340,C0278,Regular,8.49,0,No Answer,Distressed,93,4
+S00341,A10341,C0279,Regular,7.09,1,No Answer,Neutral,28,6
+S00342,A10342,C0280,Irregular,8.15,4,No Answer,Cooperative,75,3
+S00343,A10343,C0281,Irregular,8.91,0,Connected,Angry,11,2
+S00344,A10344,C0281,None,2.83,6,Connected,Cooperative,73,3
+S00345,A10345,C0282,Irregular,1.24,0,No Answer,Neutral,94,9
+S00346,A10346,C0282,Regular,6.59,5,No Answer,Neutral,89,6
+S00347,A10347,C0283,Irregular,2.24,0,Connected,Cooperative,33,18
+S00348,A10348,C0284,Irregular,2.27,6,Connected,Cooperative,41,10
+S00349,A10349,C0285,Regular,1.35,2,Connected,Angry,20,10
+S00350,A10350,C0286,Irregular,7.41,6,Refused,Cooperative,86,14
+S00351,A10351,C0287,Irregular,6.15,4,Connected,Neutral,32,0
+S00352,A10352,C0288,Regular,3.75,5,Connected,Neutral,97,10
+S00353,A10353,C0289,None,8.32,4,Connected,Cooperative,16,16
+S00354,A10354,C0290,Regular,9.02,0,No Answer,Cooperative,92,4
+S00355,A10355,C0291,Irregular,8.93,6,Refused,Neutral,20,13
+S00356,A10356,C0292,Irregular,6.45,0,No Answer,Neutral,29,6
+S00357,A10357,C0293,Irregular,7.5,1,Connected,Distressed,39,11
+S00358,A10358,C0294,None,9.94,1,No Answer,Distressed,88,19
+S00359,A10359,C0295,Regular,9.38,4,No Answer,Neutral,57,7
+S00360,A10360,C0295,Regular,6.84,5,Connected,Neutral,19,4
+S00361,A10361,C0296,Regular,8.97,2,Connected,Angry,21,20
+S00362,A10362,C0297,Irregular,8.04,6,No Answer,Angry,31,14
+S00363,A10363,C0298,Irregular,7.31,0,Connected,Distressed,42,10
+S00364,A10364,C0299,Irregular,1.04,0,Connected,Cooperative,72,8
+S00365,A10365,C0300,None,8.34,2,Refused,Neutral,68,12
+S00366,A10366,C0300,Irregular,8.15,4,No Answer,Cooperative,22,3
+S00367,A10367,C0301,Irregular,5.56,4,No Answer,Neutral,60,8
+S00368,A10368,C0302,Irregular,2.4,1,Connected,Cooperative,69,17
+S00369,A10369,C0303,Irregular,1.56,0,No Answer,Cooperative,38,1
+S00370,A10370,C0304,Regular,5.44,1,No Answer,Distressed,79,5
+S00371,A10371,C0305,None,1.25,5,No Answer,Cooperative,96,5
+S00372,A10372,C0306,Irregular,5.41,6,Refused,Neutral,27,9
+S00373,A10373,C0306,Irregular,4.6,6,Connected,Neutral,81,6
+S00374,A10374,C0307,Regular,1.1,5,Refused,Neutral,17,5
+S00375,A10375,C0307,Irregular,3.39,0,No Answer,Neutral,97,15
+S00376,A10376,C0308,Regular,1.81,5,No Answer,Angry,32,5
+S00377,A10377,C0308,Regular,4.61,0,Connected,Neutral,47,20
+S00378,A10378,C0309,Irregular,8.21,4,No Answer,Distressed,48,19
+S00379,A10379,C0310,None,4.09,2,Connected,Distressed,45,5
+S00380,A10380,C0311,Regular,8.87,5,Refused,Distressed,55,5
+S00381,A10381,C0311,None,9.23,2,Connected,Cooperative,89,20
+S00382,A10382,C0312,Regular,7.68,3,No Answer,Cooperative,69,0
+S00383,A10383,C0313,Irregular,9.75,2,No Answer,Distressed,22,18
+S00384,A10384,C0314,Irregular,4.77,3,Connected,Neutral,98,8
+S00385,A10385,C0315,Regular,5.93,3,Connected,Neutral,85,17
+S00386,A10386,C0315,Irregular,8.1,0,Connected,Cooperative,79,6
+S00387,A10387,C0316,Regular,7.17,0,No Answer,Neutral,94,20
+S00388,A10388,C0317,Regular,5.12,1,Connected,Cooperative,46,15
+S00389,A10389,C0317,Irregular,7.54,6,No Answer,Cooperative,70,3
+S00390,A10390,C0318,Regular,1.9,3,Refused,Neutral,40,6
+S00391,A10391,C0319,None,9.3,1,No Answer,Cooperative,64,11
+S00392,A10392,C0320,Regular,2.51,0,Refused,Distressed,20,1
+S00393,A10393,C0321,None,1.44,4,No Answer,Neutral,78,6
+S00394,A10394,C0322,None,4.54,6,Refused,Neutral,20,7
+S00395,A10395,C0323,Irregular,1.35,1,Connected,Neutral,14,2
+S00396,A10396,C0324,Irregular,6.88,0,No Answer,Cooperative,48,9
+S00397,A10397,C0324,None,3.01,4,Connected,Cooperative,42,2
+S00398,A10398,C0325,Irregular,8.3,4,Refused,Cooperative,26,4
+S00399,A10399,C0325,Irregular,4.03,6,No Answer,Angry,51,6
+S00400,A10400,C0326,Irregular,0.63,2,No Answer,Distressed,61,18
+S00401,A10401,C0327,Irregular,2.81,6,No Answer,Neutral,35,4
+S00402,A10402,C0327,Irregular,3.23,6,No Answer,Neutral,59,7
+S00403,A10403,C0328,Irregular,7.76,0,Connected,Angry,85,5
+S00404,A10404,C0329,Regular,2.93,4,Connected,Cooperative,68,14
+S00405,A10405,C0330,Irregular,2.13,3,Connected,Distressed,73,11
+S00406,A10406,C0330,Irregular,7.57,0,Connected,Angry,73,6
+S00407,A10407,C0331,Regular,1.55,4,No Answer,Neutral,40,16
+S00408,A10408,C0332,None,5.3,0,Connected,Neutral,52,11
+S00409,A10409,C0333,Irregular,4.64,1,Connected,Neutral,35,5
+S00410,A10410,C0334,Irregular,6.64,4,No Answer,Cooperative,86,0
+S00411,A10411,C0334,Regular,6.49,3,Refused,Distressed,66,12
+S00412,A10412,C0335,Regular,7.66,6,Connected,Distressed,97,16
+S00413,A10413,C0335,Irregular,6.54,3,No Answer,Neutral,99,14
+S00414,A10414,C0336,Irregular,6.79,4,Connected,Neutral,47,2
+S00415,A10415,C0337,Irregular,4.09,5,Connected,Distressed,60,4
+S00416,A10416,C0337,Irregular,3.46,0,Refused,Cooperative,25,15
+S00417,A10417,C0338,Regular,6.23,0,Connected,Distressed,79,2
+S00418,A10418,C0339,Regular,1.1,2,Connected,Cooperative,22,15
+S00419,A10419,C0339,Irregular,1.28,6,No Answer,Angry,69,3
+S00420,A10420,C0340,Irregular,7.77,0,Connected,Distressed,41,5
+S00421,A10421,C0341,None,7.21,4,No Answer,Distressed,28,20
+S00422,A10422,C0342,Irregular,4.06,0,Connected,Distressed,84,19
+S00423,A10423,C0343,None,7.53,6,Connected,Cooperative,10,17
+S00424,A10424,C0344,None,4.54,6,Connected,Distressed,57,8
+S00425,A10425,C0345,Regular,9.05,6,No Answer,Cooperative,22,1
+S00426,A10426,C0346,Regular,5.81,4,Refused,Distressed,30,2
+S00427,A10427,C0347,Regular,6.78,2,Connected,Distressed,29,11
+S00428,A10428,C0348,Irregular,9.67,2,Connected,Distressed,91,8
+S00429,A10429,C0349,Regular,4.04,0,Refused,Angry,22,5
+S00430,A10430,C0350,Irregular,7.75,6,No Answer,Neutral,61,16
+S00431,A10431,C0350,Irregular,7.18,4,Refused,Distressed,12,13
+S00432,A10432,C0351,Irregular,2.26,4,Connected,Cooperative,21,20
+S00433,A10433,C0352,None,6.83,3,No Answer,Neutral,64,4
+S00434,A10434,C0353,None,1.6,1,Refused,Neutral,80,2
+S00435,A10435,C0354,None,7.57,3,No Answer,Distressed,72,19
+S00436,A10436,C0355,Irregular,1.34,4,Connected,Neutral,56,17
+S00437,A10437,C0356,None,8.31,2,Refused,Neutral,81,12
+S00438,A10438,C0356,Regular,1.17,6,No Answer,Neutral,42,11
+S00439,A10439,C0357,None,2.67,1,No Answer,Cooperative,88,0
+S00440,A10440,C0358,None,1.88,6,Connected,Distressed,64,11
+S00441,A10441,C0359,None,9.87,5,Connected,Angry,65,11
+S00442,A10442,C0360,Irregular,3.08,4,No Answer,Neutral,17,4
+S00443,A10443,C0360,Regular,8.88,0,No Answer,Cooperative,31,2
+S00444,A10444,C0361,None,5.79,5,No Answer,Distressed,97,11
+S00445,A10445,C0362,None,6.62,6,Refused,Neutral,57,6
+S00446,A10446,C0363,Irregular,7.7,1,No Answer,Cooperative,55,12
+S00447,A10447,C0364,Regular,3.14,0,No Answer,Neutral,22,8
+S00448,A10448,C0365,Irregular,8.56,0,Connected,Distressed,63,17
+S00449,A10449,C0366,Regular,4.12,3,No Answer,Cooperative,88,15
+S00450,A10450,C0367,Irregular,5.7,6,Refused,Cooperative,53,17
+S00451,A10451,C0368,Irregular,3.15,4,Connected,Neutral,13,16
+S00452,A10452,C0369,Regular,6.51,0,Connected,Neutral,90,11
+S00453,A10453,C0369,Irregular,7.62,6,No Answer,Neutral,71,20
+S00454,A10454,C0370,Irregular,1.39,6,Connected,Cooperative,57,6
+S00455,A10455,C0371,Irregular,2.04,0,Connected,Cooperative,39,14
+S00456,A10456,C0372,Regular,8.56,5,No Answer,Distressed,35,18
+S00457,A10457,C0373,Irregular,6.46,1,No Answer,Distressed,49,9
+S00458,A10458,C0374,None,5.14,1,No Answer,Angry,59,7
+S00459,A10459,C0375,Irregular,1.85,0,Refused,Cooperative,86,2
+S00460,A10460,C0376,None,7.98,5,No Answer,Cooperative,22,14
+S00461,A10461,C0376,Regular,5.65,2,Refused,Neutral,34,10
+S00462,A10462,C0377,Irregular,3.62,1,Refused,Angry,28,13
+S00463,A10463,C0378,Regular,9.92,3,No Answer,Cooperative,15,18
+S00464,A10464,C0379,None,9.5,6,Refused,Cooperative,28,18
+S00465,A10465,C0380,Regular,9.69,2,Connected,Distressed,70,6
+S00466,A10466,C0381,Irregular,3.89,2,No Answer,Distressed,31,13
+S00467,A10467,C0382,None,3.73,3,Connected,Cooperative,11,16
+S00468,A10468,C0383,Irregular,8.55,5,Refused,Neutral,44,10
+S00469,A10469,C0384,Regular,8.26,0,Connected,Distressed,60,1
+S00470,A10470,C0385,None,8.21,0,No Answer,Neutral,94,13
+S00471,A10471,C0386,Regular,9.26,6,No Answer,Distressed,86,13
+S00472,A10472,C0387,Irregular,8.42,5,Connected,Cooperative,50,6
+S00473,A10473,C0387,None,6.42,1,Refused,Neutral,69,15
+S00474,A10474,C0388,Irregular,7.88,1,No Answer,Neutral,29,16
+S00475,A10475,C0389,None,0.74,2,Refused,Neutral,79,2
+S00476,A10476,C0390,None,0.98,0,Refused,Distressed,45,14
+S00477,A10477,C0390,None,5.47,6,Connected,Neutral,95,12
+S00478,A10478,C0391,Regular,4.59,5,Connected,Angry,70,5
+S00479,A10479,C0392,Regular,7.16,2,Connected,Distressed,57,4
+S00480,A10480,C0393,None,9.21,4,No Answer,Cooperative,81,20
+S00481,A10481,C0394,None,8.31,6,Connected,Neutral,84,9
+S00482,A10482,C0395,Irregular,8.27,0,Connected,Cooperative,45,1
+S00483,A10483,C0395,None,1.37,3,Refused,Cooperative,17,17
+S00484,A10484,C0396,Irregular,8.96,1,Connected,Cooperative,60,9
+S00485,A10485,C0397,Regular,1.27,5,Connected,Distressed,20,2
+S00486,A10486,C0398,None,6.39,4,No Answer,Angry,52,8
+S00487,A10487,C0398,Irregular,2.03,4,Connected,Cooperative,10,7
+S00488,A10488,C0399,Irregular,4.84,3,No Answer,Distressed,18,8
+S00489,A10489,C0399,None,8.84,0,No Answer,Neutral,12,20
+S00490,A10490,C0400,Irregular,9.11,0,No Answer,Cooperative,19,14
+S00491,A10491,C0401,Regular,7.84,5,Refused,Neutral,90,17
+S00492,A10492,C0402,None,5.82,4,Refused,Distressed,17,10
+S00493,A10493,C0403,Irregular,2.81,3,Connected,Distressed,46,18
+S00494,A10494,C0403,None,3.49,3,No Answer,Cooperative,71,1
+S00495,A10495,C0404,Regular,7.59,1,Connected,Distressed,26,7
+S00496,A10496,C0405,Irregular,0.72,1,Connected,Distressed,60,3
+S00497,A10497,C0405,Regular,2.04,1,Refused,Cooperative,52,6
+S00498,A10498,C0406,Irregular,6.48,1,Connected,Distressed,87,17
+S00499,A10499,C0406,Regular,1.46,5,Connected,Neutral,88,5
+S00500,A10500,C0407,Irregular,5.65,0,Connected,Distressed,44,6
+S00501,A10501,C0408,None,6.88,2,No Answer,Angry,70,0
+S00502,A10502,C0408,Regular,4.67,6,Connected,Distressed,54,6
+S00503,A10503,C0409,Irregular,5.86,5,No Answer,Distressed,99,18
+S00504,A10504,C0409,Irregular,8.22,5,Refused,Neutral,18,13
+S00505,A10505,C0410,Irregular,2.35,2,No Answer,Neutral,76,8
+S00506,A10506,C0411,Irregular,0.54,4,No Answer,Distressed,80,14
+S00507,A10507,C0412,Irregular,9.09,3,Refused,Angry,98,3
+S00508,A10508,C0413,Irregular,9.45,3,Refused,Cooperative,45,10
+S00509,A10509,C0414,Irregular,5.26,1,No Answer,Cooperative,72,1
+S00510,A10510,C0415,None,4.58,1,Connected,Angry,68,10
+S00511,A10511,C0416,Irregular,7.78,5,No Answer,Cooperative,54,13
+S00512,A10512,C0417,Regular,5.6,3,Refused,Distressed,53,14
+S00513,A10513,C0417,Irregular,3.07,6,Connected,Angry,71,5
+S00514,A10514,C0418,Regular,8.72,3,Connected,Neutral,46,3
+S00515,A10515,C0419,Irregular,8.67,1,Refused,Cooperative,32,16
+S00516,A10516,C0420,Regular,0.72,4,No Answer,Distressed,32,5
+S00517,A10517,C0421,Regular,2.96,3,Refused,Neutral,11,2
+S00518,A10518,C0421,Regular,8.66,1,No Answer,Distressed,80,6
+S00519,A10519,C0422,Regular,7.68,0,Connected,Cooperative,14,1
+S00520,A10520,C0423,Regular,0.59,4,No Answer,Cooperative,13,0
+S00521,A10521,C0423,Regular,2.34,3,Connected,Neutral,94,2
+S00522,A10522,C0424,Regular,6.8,6,No Answer,Angry,15,7
+S00523,A10523,C0425,Irregular,0.97,4,No Answer,Angry,51,4
+S00524,A10524,C0425,None,2.93,3,No Answer,Cooperative,55,11
+S00525,A10525,C0426,Irregular,4.38,5,Connected,Distressed,68,17
+S00526,A10526,C0427,None,0.87,0,No Answer,Cooperative,51,6
+S00527,A10527,C0428,None,6.49,6,No Answer,Neutral,81,5
+S00528,A10528,C0429,None,6.73,0,Connected,Neutral,48,15
+S00529,A10529,C0429,Irregular,3.73,2,Refused,Neutral,16,15
+S00530,A10530,C0430,None,4.66,3,Refused,Neutral,41,18
+S00531,A10531,C0430,Regular,8.37,1,Refused,Neutral,55,3
+S00532,A10532,C0431,Regular,2.11,2,Refused,Cooperative,25,20
+S00533,A10533,C0432,Regular,3.39,3,Refused,Neutral,85,19
+S00534,A10534,C0433,None,4.61,0,Connected,Neutral,43,12
+S00535,A10535,C0434,Regular,9.82,3,Refused,Distressed,52,7
+S00536,A10536,C0435,None,5.69,4,No Answer,Cooperative,40,5
+S00537,A10537,C0436,Regular,1.23,5,Refused,Distressed,59,17
+S00538,A10538,C0437,Irregular,9.02,3,No Answer,Angry,92,7
+S00539,A10539,C0438,Irregular,9.17,1,No Answer,Neutral,28,11
+S00540,A10540,C0439,Regular,0.98,0,Connected,Neutral,90,11
+S00541,A10541,C0439,Irregular,3.66,3,Connected,Cooperative,24,10
+S00542,A10542,C0440,Irregular,7.26,5,No Answer,Neutral,96,10
+S00543,A10543,C0441,None,2.25,2,Connected,Cooperative,91,7
+S00544,A10544,C0442,Irregular,4.83,0,Connected,Neutral,17,18
+S00545,A10545,C0442,Regular,8.3,0,Refused,Cooperative,45,9
+S00546,A10546,C0443,Irregular,2.98,5,Connected,Neutral,84,3
+S00547,A10547,C0444,Regular,7.29,6,Refused,Cooperative,95,13
+S00548,A10548,C0445,None,9.23,5,No Answer,Cooperative,14,5
+S00549,A10549,C0446,Irregular,5.48,6,Refused,Neutral,22,4
+S00550,A10550,C0447,None,2.18,2,Refused,Neutral,44,14
+S00551,A10551,C0448,None,1.15,5,Connected,Neutral,39,4
+S00552,A10552,C0449,Irregular,1.02,3,Refused,Cooperative,41,7
+S00553,A10553,C0450,Irregular,2.87,2,No Answer,Neutral,65,15
+S00554,A10554,C0451,None,4.8,4,Connected,Angry,19,5
+S00555,A10555,C0452,None,3.31,4,No Answer,Cooperative,53,1
+S00556,A10556,C0453,Irregular,7.67,0,Connected,Neutral,79,6
+S00557,A10557,C0454,None,4.14,4,Refused,Angry,28,16
+S00558,A10558,C0454,Regular,5.6,6,Refused,Angry,24,11
+S00559,A10559,C0455,Irregular,3.6,4,Refused,Neutral,74,9
+S00560,A10560,C0456,Irregular,4.6,6,Refused,Cooperative,18,2
+S00561,A10561,C0457,Regular,4.33,0,No Answer,Neutral,80,3
+S00562,A10562,C0458,Regular,4.0,3,Refused,Distressed,12,10
+S00563,A10563,C0459,None,3.22,2,Connected,Neutral,65,5
+S00564,A10564,C0460,None,5.82,1,No Answer,Neutral,15,6
+S00565,A10565,C0460,Regular,5.93,0,Refused,Distressed,88,14
+S00566,A10566,C0461,Irregular,9.97,1,Connected,Neutral,36,20
+S00567,A10567,C0462,Regular,6.53,2,Connected,Distressed,46,7
+S00568,A10568,C0463,Irregular,3.17,6,No Answer,Neutral,16,19
+S00569,A10569,C0464,Regular,9.01,5,Connected,Neutral,66,13
+S00570,A10570,C0465,Irregular,9.74,1,Refused,Cooperative,41,5
+S00571,A10571,C0466,None,4.26,6,Connected,Distressed,86,20
+S00572,A10572,C0467,Irregular,1.22,4,Connected,Cooperative,49,15
+S00573,A10573,C0468,Irregular,2.81,0,Refused,Neutral,10,15
+S00574,A10574,C0469,Irregular,8.54,4,Connected,Distressed,94,14
+S00575,A10575,C0470,Regular,5.58,2,No Answer,Angry,77,14
+S00576,A10576,C0470,Regular,4.28,0,Connected,Cooperative,82,11
+S00577,A10577,C0471,None,2.1,1,Connected,Angry,18,17
+S00578,A10578,C0472,Regular,4.44,2,Refused,Cooperative,46,2
+S00579,A10579,C0473,Irregular,3.64,2,No Answer,Neutral,50,4
+S00580,A10580,C0474,None,1.93,5,No Answer,Cooperative,64,13
+S00581,A10581,C0475,Irregular,8.75,3,Refused,Distressed,69,17
+S00582,A10582,C0476,Regular,8.68,6,Refused,Cooperative,17,16
+S00583,A10583,C0477,Irregular,7.97,6,No Answer,Neutral,55,6
+S00584,A10584,C0478,Regular,6.67,4,No Answer,Distressed,26,7
+S00585,A10585,C0479,Regular,5.32,5,Connected,Cooperative,55,10
+S00586,A10586,C0480,Regular,1.9,3,No Answer,Cooperative,14,8
+S00587,A10587,C0481,Regular,6.97,3,No Answer,Cooperative,69,20
+S00588,A10588,C0482,None,8.63,2,Connected,Neutral,77,9
+S00589,A10589,C0483,Irregular,9.96,0,Connected,Neutral,37,9
+S00590,A10590,C0484,Irregular,8.8,4,No Answer,Angry,89,7
+S00591,A10591,C0485,Regular,2.6,5,Connected,Cooperative,49,10
+S00592,A10592,C0486,Irregular,3.89,5,No Answer,Neutral,83,4
+S00593,A10593,C0487,Irregular,5.95,0,Connected,Cooperative,80,15
+S00594,A10594,C0488,Regular,6.98,6,No Answer,Angry,74,16
+S00595,A10595,C0489,None,3.18,4,No Answer,Cooperative,75,10
+S00596,A10596,C0490,Regular,4.74,4,Connected,Cooperative,58,10
+S00597,A10597,C0491,Regular,1.68,1,Refused,Cooperative,43,4
+S00598,A10598,C0491,None,2.2,3,No Answer,Distressed,91,15
+S00599,A10599,C0492,None,5.91,1,Connected,Angry,87,2
+S00600,A10600,C0493,None,6.7,2,No Answer,Neutral,33,0
+S00601,A10601,C0494,Irregular,3.86,6,Refused,Distressed,49,0
+S00602,A10602,C0495,None,6.1,6,Connected,Distressed,62,16
+S00603,A10603,C0496,Regular,6.82,2,Connected,Cooperative,44,11
+S00604,A10604,C0496,Regular,1.01,3,No Answer,Cooperative,58,20
+S00605,A10605,C0497,Irregular,8.01,3,Connected,Angry,25,2
+S00606,A10606,C0498,Regular,1.16,6,Connected,Cooperative,61,11
+S00607,A10607,C0499,Irregular,1.49,2,Connected,Neutral,32,9
+S00608,A10608,C0500,Regular,4.58,2,No Answer,Cooperative,70,3
+S00609,A10609,C0501,Irregular,9.35,4,No Answer,Distressed,60,10
+S00610,A10610,C0502,None,4.26,0,Connected,Cooperative,78,15
+S00611,A10611,C0503,Regular,8.97,3,No Answer,Distressed,65,4
+S00612,A10612,C0504,Regular,7.34,1,No Answer,Distressed,55,9
+S00613,A10613,C0505,Regular,0.98,1,No Answer,Neutral,47,13
+S00614,A10614,C0505,Irregular,1.32,2,Connected,Distressed,47,14
+S00615,A10615,C0506,Regular,7.52,1,Connected,Cooperative,72,8
+S00616,A10616,C0507,Irregular,9.98,5,Connected,Cooperative,20,10
+S00617,A10617,C0508,None,9.42,4,Connected,Angry,77,3
+S00618,A10618,C0509,Regular,1.48,2,Connected,Cooperative,40,7
+S00619,A10619,C0509,Regular,6.26,3,No Answer,Cooperative,29,7
+S00620,A10620,C0510,Irregular,8.11,5,Refused,Cooperative,14,15
+S00621,A10621,C0511,Irregular,7.43,5,Connected,Angry,36,11
+S00622,A10622,C0512,Irregular,6.09,6,Connected,Angry,65,1
+S00623,A10623,C0513,Regular,1.48,1,No Answer,Distressed,58,10
+S00624,A10624,C0513,Regular,8.42,1,Connected,Cooperative,56,14
+S00625,A10625,C0514,Irregular,2.8,3,Connected,Cooperative,19,7
+S00626,A10626,C0515,Irregular,9.74,5,Connected,Distressed,61,5
+S00627,A10627,C0516,Irregular,5.03,3,No Answer,Cooperative,43,18
+S00628,A10628,C0516,Regular,6.71,4,No Answer,Cooperative,18,20
+S00629,A10629,C0517,Irregular,5.6,3,Refused,Distressed,10,6
+S00630,A10630,C0518,Irregular,5.1,5,No Answer,Neutral,40,7
+S00631,A10631,C0519,Irregular,1.1,3,Connected,Angry,87,14
+S00632,A10632,C0519,None,0.84,6,Connected,Cooperative,65,18
+S00633,A10633,C0520,Regular,6.83,5,Refused,Neutral,87,15
+S00634,A10634,C0521,Irregular,1.22,4,Connected,Cooperative,27,3
+S00635,A10635,C0522,Regular,4.32,4,No Answer,Neutral,16,1
+S00636,A10636,C0523,Regular,5.62,4,Connected,Neutral,56,20
+S00637,A10637,C0524,Irregular,1.7,5,No Answer,Distressed,26,8
+S00638,A10638,C0524,Irregular,4.23,2,No Answer,Neutral,10,20
+S00639,A10639,C0525,Regular,2.05,4,Connected,Neutral,62,7
+S00640,A10640,C0526,Regular,1.57,1,No Answer,Angry,42,12
+S00641,A10641,C0527,None,2.0,5,No Answer,Angry,26,11
+S00642,A10642,C0528,Regular,4.0,5,Connected,Distressed,62,20
+S00643,A10643,C0529,Regular,3.83,6,Connected,Neutral,35,20
+S00644,A10644,C0530,Regular,9.15,6,Refused,Cooperative,38,1
+S00645,A10645,C0531,Regular,6.1,2,Connected,Distressed,58,8
+S00646,A10646,C0532,Irregular,3.12,5,No Answer,Cooperative,39,16
+S00647,A10647,C0533,Irregular,9.04,2,No Answer,Cooperative,67,11
+S00648,A10648,C0534,Irregular,1.07,2,No Answer,Distressed,78,2
+S00649,A10649,C0535,Irregular,2.29,4,Refused,Cooperative,71,16
+S00650,A10650,C0536,Irregular,2.85,3,Connected,Distressed,40,4
+S00651,A10651,C0536,Irregular,2.36,4,Refused,Cooperative,67,18
+S00652,A10652,C0537,Regular,8.65,1,Connected,Distressed,39,0
+S00653,A10653,C0537,Irregular,9.42,0,No Answer,Neutral,87,10
+S00654,A10654,C0538,None,2.28,3,No Answer,Distressed,18,13
+S00655,A10655,C0539,Irregular,9.73,4,Connected,Cooperative,16,6
+S00656,A10656,C0540,None,9.91,1,No Answer,Distressed,45,15
+S00657,A10657,C0541,Regular,6.1,0,Connected,Cooperative,79,12
+S00658,A10658,C0542,Irregular,2.79,6,Connected,Cooperative,90,8
+S00659,A10659,C0543,Regular,8.5,3,No Answer,Distressed,19,6
+S00660,A10660,C0543,None,9.16,2,No Answer,Neutral,78,10
+S00661,A10661,C0544,Irregular,6.39,6,No Answer,Distressed,15,10
+S00662,A10662,C0544,Regular,2.14,1,No Answer,Neutral,94,10
+S00663,A10663,C0545,Irregular,1.48,1,No Answer,Cooperative,88,16
+S00664,A10664,C0545,Regular,3.06,1,Refused,Cooperative,23,3
+S00665,A10665,C0546,None,8.38,3,No Answer,Cooperative,70,20
+S00666,A10666,C0547,Regular,6.26,0,Connected,Cooperative,18,3
+S00667,A10667,C0548,Regular,4.6,6,Connected,Cooperative,41,2
+S00668,A10668,C0549,None,1.38,0,Connected,Cooperative,86,1
+S00669,A10669,C0550,Irregular,4.66,1,Refused,Neutral,10,10
+S00670,A10670,C0550,Irregular,1.1,6,Refused,Cooperative,46,4
+S00671,A10671,C0551,None,2.77,1,Connected,Distressed,53,16
+S00672,A10672,C0552,Regular,5.47,1,Connected,Angry,44,11
+S00673,A10673,C0553,Regular,1.55,0,Connected,Cooperative,48,20
+S00674,A10674,C0554,Irregular,5.46,2,No Answer,Cooperative,26,0
+S00675,A10675,C0555,Irregular,5.36,4,No Answer,Neutral,86,5
+S00676,A10676,C0555,Regular,7.05,5,Connected,Angry,44,6
+S00677,A10677,C0556,Regular,6.43,3,Connected,Neutral,76,6
+S00678,A10678,C0557,Irregular,2.1,0,Refused,Cooperative,54,11
+S00679,A10679,C0558,Regular,1.97,0,No Answer,Distressed,38,8
+S00680,A10680,C0559,Irregular,9.51,5,Connected,Angry,90,12
+S00681,A10681,C0560,None,1.35,6,Connected,Cooperative,34,2
+S00682,A10682,C0561,None,5.47,6,Connected,Distressed,13,12
+S00683,A10683,C0562,Regular,6.8,5,No Answer,Distressed,79,10
+S00684,A10684,C0563,Irregular,7.69,0,No Answer,Cooperative,23,2
+S00685,A10685,C0563,Regular,3.75,0,Refused,Cooperative,15,1
+S00686,A10686,C0564,Regular,9.5,4,Connected,Neutral,75,18
+S00687,A10687,C0564,Regular,5.24,0,Connected,Cooperative,49,6
+S00688,A10688,C0565,Irregular,3.37,4,Connected,Cooperative,11,18
+S00689,A10689,C0565,Irregular,5.28,3,Connected,Distressed,75,13
+S00690,A10690,C0566,Irregular,8.57,0,Connected,Cooperative,50,10
+S00691,A10691,C0567,None,0.91,3,Refused,Angry,90,19
+S00692,A10692,C0568,Irregular,9.01,2,Connected,Angry,81,20
+S00693,A10693,C0569,Irregular,1.21,6,Refused,Angry,65,15
+S00694,A10694,C0570,Regular,6.58,0,Connected,Neutral,84,1
+S00695,A10695,C0570,None,1.17,4,No Answer,Cooperative,81,3
+S00696,A10696,C0571,None,4.42,5,No Answer,Angry,80,5
+S00697,A10697,C0571,Regular,5.49,5,Connected,Cooperative,19,14
+S00698,A10698,C0572,Irregular,9.47,1,No Answer,Neutral,15,13
+S00699,A10699,C0573,Irregular,4.5,0,Refused,Angry,17,17
+S00700,A10700,C0574,None,6.54,3,Connected,Distressed,75,3
+S00701,A10701,C0575,Irregular,4.85,2,Connected,Cooperative,97,19
+S00702,A10702,C0576,Irregular,3.64,2,Refused,Angry,51,19
+S00703,A10703,C0576,Irregular,9.12,5,Refused,Neutral,72,14
+S00704,A10704,C0577,Regular,3.2,3,Refused,Distressed,82,9
+S00705,A10705,C0578,Regular,5.13,0,Connected,Cooperative,78,6
+S00706,A10706,C0579,Regular,8.14,0,Refused,Distressed,44,19
+S00707,A10707,C0579,Regular,6.53,6,Connected,Neutral,34,15
+S00708,A10708,C0580,Regular,2.72,5,Refused,Cooperative,20,20
+S00709,A10709,C0581,Irregular,7.27,5,Refused,Distressed,42,20
+S00710,A10710,C0582,Regular,4.82,1,No Answer,Cooperative,19,14
+S00711,A10711,C0583,Irregular,9.79,1,Connected,Cooperative,12,1
+S00712,A10712,C0584,Regular,3.5,2,No Answer,Neutral,14,6
+S00713,A10713,C0585,None,3.99,1,Connected,Neutral,86,20
+S00714,A10714,C0586,Regular,0.99,0,Connected,Neutral,78,6
+S00715,A10715,C0587,None,5.57,1,Connected,Angry,87,18
+S00716,A10716,C0587,Irregular,5.13,2,No Answer,Neutral,34,16
+S00717,A10717,C0588,Regular,8.84,2,Connected,Cooperative,43,6
+S00718,A10718,C0588,Irregular,4.43,6,Connected,Cooperative,67,19
+S00719,A10719,C0589,None,2.78,4,Refused,Cooperative,45,11
+S00720,A10720,C0589,Irregular,2.26,5,No Answer,Angry,90,9
+S00721,A10721,C0590,None,3.18,1,Refused,Angry,65,12
+S00722,A10722,C0591,None,4.14,1,Connected,Distressed,75,20
+S00723,A10723,C0592,Regular,5.49,2,Connected,Cooperative,98,19
+S00724,A10724,C0593,Regular,4.68,0,Connected,Angry,85,4
+S00725,A10725,C0594,Irregular,6.24,1,Refused,Neutral,11,13
+S00726,A10726,C0594,Irregular,4.91,5,Connected,Distressed,65,12
+S00727,A10727,C0595,None,7.98,6,Connected,Neutral,44,14
+S00728,A10728,C0596,Irregular,3.14,1,No Answer,Cooperative,36,8
+S00729,A10729,C0597,Regular,8.68,3,Refused,Distressed,75,19
+S00730,A10730,C0598,Regular,6.84,5,No Answer,Neutral,21,13
+S00731,A10731,C0599,Regular,8.52,4,Refused,Distressed,53,2
+S00732,A10732,C0600,Irregular,4.0,1,No Answer,Angry,27,14
+S00733,A10733,C0601,Regular,9.52,2,Connected,Angry,72,0
+S00734,A10734,C0602,None,6.28,3,No Answer,Distressed,28,12
+S00735,A10735,C0603,Regular,1.66,0,Connected,Neutral,40,18
+S00736,A10736,C0603,None,3.9,2,Connected,Neutral,12,11
+S00737,A10737,C0604,Irregular,9.71,1,Refused,Angry,40,7
+S00738,A10738,C0604,Regular,6.19,6,Connected,Angry,73,19
+S00739,A10739,C0605,Regular,6.19,4,Refused,Angry,64,3
+S00740,A10740,C0606,Irregular,2.9,5,No Answer,Angry,18,10
+S00741,A10741,C0606,Regular,8.57,1,Refused,Neutral,45,5
+S00742,A10742,C0607,Irregular,1.56,0,Connected,Cooperative,67,17
+S00743,A10743,C0608,Irregular,5.88,3,Connected,Neutral,15,1
+S00744,A10744,C0609,None,3.92,3,Connected,Cooperative,48,13
+S00745,A10745,C0610,Irregular,8.55,2,Connected,Neutral,31,3
+S00746,A10746,C0610,Regular,8.69,5,Refused,Distressed,85,15
+S00747,A10747,C0611,None,6.42,4,Refused,Cooperative,81,7
+S00748,A10748,C0612,Irregular,4.55,4,Connected,Neutral,51,2
+S00749,A10749,C0613,Regular,6.74,5,No Answer,Neutral,33,18
+S00750,A10750,C0613,Regular,8.04,5,No Answer,Neutral,27,11
+S00751,A10751,C0614,Irregular,9.89,3,No Answer,Angry,15,18
+S00752,A10752,C0614,Irregular,8.61,1,Connected,Angry,62,12
+S00753,A10753,C0615,Irregular,8.53,0,No Answer,Neutral,13,11
+S00754,A10754,C0615,Regular,6.37,6,Connected,Cooperative,25,10
+S00755,A10755,C0616,None,2.53,0,Connected,Cooperative,84,17
+S00756,A10756,C0616,None,8.67,3,Connected,Cooperative,82,9
+S00757,A10757,C0617,None,4.85,4,Connected,Neutral,75,17
+S00758,A10758,C0618,Irregular,1.1,3,No Answer,Distressed,58,15
+S00759,A10759,C0619,Irregular,7.05,3,Connected,Cooperative,37,3
+S00760,A10760,C0619,Irregular,8.16,2,No Answer,Cooperative,83,7
+S00761,A10761,C0620,None,1.33,3,Connected,Neutral,63,15
+S00762,A10762,C0620,Regular,7.91,3,Connected,Angry,53,1
+S00763,A10763,C0621,Regular,6.16,2,Refused,Cooperative,90,8
+S00764,A10764,C0622,None,7.11,0,No Answer,Cooperative,92,0
+S00765,A10765,C0622,Irregular,7.27,1,No Answer,Angry,53,8
+S00766,A10766,C0623,Regular,5.45,4,Refused,Distressed,89,13
+S00767,A10767,C0624,Irregular,3.47,3,No Answer,Angry,28,10
+S00768,A10768,C0625,None,5.52,6,Refused,Cooperative,97,7
+S00769,A10769,C0626,None,5.21,4,Connected,Neutral,45,1
+S00770,A10770,C0627,Regular,4.18,6,Connected,Cooperative,46,10
+S00771,A10771,C0627,Regular,5.52,0,Connected,Neutral,35,10
+S00772,A10772,C0628,Regular,0.53,6,Refused,Neutral,16,17
+S00773,A10773,C0628,None,2.85,4,Refused,Neutral,93,13
+S00774,A10774,C0629,None,7.29,6,Connected,Neutral,19,18
+S00775,A10775,C0630,Irregular,5.96,2,Connected,Neutral,93,3
+S00776,A10776,C0631,Irregular,2.04,5,No Answer,Neutral,70,8
+S00777,A10777,C0632,None,6.89,0,No Answer,Angry,23,2
+S00778,A10778,C0632,Regular,2.63,2,Refused,Neutral,54,0
+S00779,A10779,C0633,Irregular,7.55,6,Refused,Neutral,98,4
+S00780,A10780,C0634,Irregular,7.0,0,No Answer,Angry,13,13
+S00781,A10781,C0635,None,3.5,1,No Answer,Neutral,44,15
+S00782,A10782,C0635,Regular,4.22,5,No Answer,Neutral,91,17
+S00783,A10783,C0636,None,9.13,3,Connected,Cooperative,67,17
+S00784,A10784,C0636,Regular,3.12,3,No Answer,Neutral,86,16
+S00785,A10785,C0637,None,9.52,2,Connected,Distressed,46,4
+S00786,A10786,C0638,Irregular,5.28,1,Connected,Neutral,21,8
+S00787,A10787,C0639,Irregular,8.74,3,Refused,Cooperative,38,8
+S00788,A10788,C0640,Irregular,7.77,6,Connected,Cooperative,63,18
+S00789,A10789,C0641,Irregular,4.46,4,Connected,Cooperative,82,2
+S00790,A10790,C0642,None,1.82,6,No Answer,Distressed,96,8
+S00791,A10791,C0643,Irregular,2.55,0,Refused,Distressed,32,0
+S00792,A10792,C0644,Irregular,6.9,1,Connected,Neutral,77,9
+S00793,A10793,C0644,Irregular,6.16,0,Connected,Cooperative,51,4
+S00794,A10794,C0645,Regular,3.09,1,No Answer,Distressed,20,4
+S00795,A10795,C0645,Irregular,5.34,4,No Answer,Cooperative,81,19
+S00796,A10796,C0646,None,9.83,2,Refused,Cooperative,22,5
+S00797,A10797,C0647,None,3.23,6,Refused,Neutral,11,4
+S00798,A10798,C0648,None,7.69,4,No Answer,Angry,40,2
+S00799,A10799,C0649,Regular,4.56,4,Connected,Neutral,78,7
+S00800,A10800,C0650,Irregular,1.54,4,No Answer,Cooperative,41,12
+S00801,A10801,C0651,Regular,9.6,6,Connected,Distressed,31,1
+S00802,A10802,C0652,Irregular,2.18,6,Refused,Neutral,77,19
+S00803,A10803,C0653,Irregular,4.12,3,Connected,Cooperative,87,4
+S00804,A10804,C0653,Irregular,7.75,6,Refused,Angry,34,13
+S00805,A10805,C0654,Regular,4.33,0,Refused,Cooperative,50,0
+S00806,A10806,C0654,Irregular,5.31,3,Connected,Neutral,61,3
+S00807,A10807,C0655,Irregular,4.08,3,Connected,Neutral,56,2
+S00808,A10808,C0656,Regular,9.91,6,Refused,Distressed,67,2
+S00809,A10809,C0657,Regular,1.48,5,No Answer,Angry,62,7
+S00810,A10810,C0658,Irregular,0.58,6,No Answer,Angry,81,9
+S00811,A10811,C0659,Regular,2.11,5,No Answer,Distressed,52,11
+S00812,A10812,C0659,None,1.48,6,Connected,Distressed,66,15
+S00813,A10813,C0660,Regular,7.35,3,No Answer,Cooperative,31,4
+S00814,A10814,C0660,Irregular,8.96,2,No Answer,Distressed,33,12
+S00815,A10815,C0661,Irregular,5.11,1,No Answer,Distressed,15,16
+S00816,A10816,C0662,Irregular,0.53,3,Connected,Angry,13,9
+S00817,A10817,C0663,Regular,7.54,2,Connected,Angry,24,3
+S00818,A10818,C0664,None,5.36,6,No Answer,Angry,57,20
+S00819,A10819,C0665,Regular,8.53,0,Connected,Distressed,60,4
+S00820,A10820,C0666,Regular,7.03,1,Connected,Neutral,43,8
+S00821,A10821,C0667,Irregular,2.43,4,Connected,Angry,72,11
+S00822,A10822,C0668,Regular,1.88,0,Refused,Distressed,61,14
+S00823,A10823,C0669,Irregular,2.67,1,Connected,Neutral,66,7
+S00824,A10824,C0670,None,7.04,1,Refused,Angry,82,1
+S00825,A10825,C0670,Regular,1.35,6,Refused,Cooperative,18,16
+S00826,A10826,C0671,Irregular,5.85,6,No Answer,Cooperative,28,4
+S00827,A10827,C0672,None,3.39,4,Connected,Neutral,89,13
+S00828,A10828,C0673,None,5.26,3,Connected,Angry,13,8
+S00829,A10829,C0674,None,4.06,5,Refused,Distressed,69,3
+S00830,A10830,C0675,Regular,3.69,6,Refused,Cooperative,25,13
+S00831,A10831,C0675,None,0.55,6,No Answer,Angry,87,6
+S00832,A10832,C0676,Irregular,2.22,2,Refused,Distressed,69,9
+S00833,A10833,C0677,Irregular,6.34,0,No Answer,Neutral,27,4
+S00834,A10834,C0678,None,7.12,3,No Answer,Cooperative,93,1
+S00835,A10835,C0679,Irregular,4.91,3,Connected,Cooperative,98,4
+S00836,A10836,C0679,Irregular,5.32,0,Connected,Cooperative,20,16
+S00837,A10837,C0680,Regular,9.84,2,No Answer,Angry,63,2
+S00838,A10838,C0681,Irregular,4.2,1,Refused,Cooperative,14,13
+S00839,A10839,C0682,Regular,9.77,0,Connected,Cooperative,65,17
+S00840,A10840,C0683,None,7.11,0,Connected,Cooperative,45,20
+S00841,A10841,C0684,Regular,9.49,6,Refused,Angry,55,9
+S00842,A10842,C0685,Irregular,7.9,5,No Answer,Angry,82,2
+S00843,A10843,C0686,Regular,9.14,5,No Answer,Cooperative,49,18
+S00844,A10844,C0687,Irregular,7.26,4,Refused,Distressed,37,8
+S00845,A10845,C0688,None,9.17,5,Connected,Distressed,43,4
+S00846,A10846,C0689,Irregular,7.13,0,No Answer,Neutral,96,9
+S00847,A10847,C0690,None,3.48,4,Refused,Neutral,19,3
+S00848,A10848,C0691,Regular,9.07,2,No Answer,Angry,17,6
+S00849,A10849,C0692,Regular,1.99,2,Connected,Distressed,25,13
+S00850,A10850,C0692,Regular,5.05,2,No Answer,Distressed,73,5
+S00851,A10851,C0693,None,0.98,4,Connected,Distressed,73,5
+S00852,A10852,C0694,Irregular,2.95,4,Connected,Distressed,78,6
+S00853,A10853,C0695,Regular,3.05,3,No Answer,Cooperative,80,16
+S00854,A10854,C0695,Regular,7.22,1,Connected,Angry,92,11
+S00855,A10855,C0696,Regular,1.88,6,Refused,Cooperative,31,8
+S00856,A10856,C0697,Regular,5.8,6,No Answer,Angry,17,11
+S00857,A10857,C0698,Irregular,9.76,4,Connected,Neutral,22,3
+S00858,A10858,C0699,Irregular,6.19,4,No Answer,Angry,26,7
+S00859,A10859,C0700,Irregular,6.46,1,Connected,Cooperative,77,5
+S00860,A10860,C0701,Regular,2.83,4,Refused,Cooperative,79,9
+S00861,A10861,C0702,None,3.4,0,Connected,Distressed,38,7
+S00862,A10862,C0702,Regular,9.13,6,No Answer,Distressed,33,4
+S00863,A10863,C0703,Regular,1.61,0,Connected,Distressed,76,1
+S00864,A10864,C0704,Irregular,7.02,6,Refused,Neutral,92,9
+S00865,A10865,C0705,None,4.79,3,No Answer,Cooperative,14,14
+S00866,A10866,C0706,Irregular,2.53,1,Connected,Cooperative,62,3
+S00867,A10867,C0707,Regular,6.37,5,No Answer,Neutral,40,16
+S00868,A10868,C0708,Irregular,8.08,2,No Answer,Cooperative,75,19
+S00869,A10869,C0708,Regular,4.18,6,Connected,Neutral,76,3
+S00870,A10870,C0709,Irregular,8.51,1,No Answer,Cooperative,15,18
+S00871,A10871,C0710,Regular,0.87,2,No Answer,Distressed,28,8
+S00872,A10872,C0711,Irregular,0.98,2,Connected,Distressed,62,15
+S00873,A10873,C0712,Irregular,6.97,0,Refused,Distressed,43,16
+S00874,A10874,C0713,None,0.82,1,No Answer,Cooperative,94,14
+S00875,A10875,C0713,Irregular,4.14,1,No Answer,Cooperative,75,1
+S00876,A10876,C0714,Irregular,9.47,1,Connected,Neutral,38,15
+S00877,A10877,C0714,Regular,8.74,4,Refused,Distressed,61,18
+S00878,A10878,C0715,Regular,9.12,2,No Answer,Cooperative,43,12
+S00879,A10879,C0715,None,3.45,4,No Answer,Neutral,37,2
+S00880,A10880,C0716,Regular,8.78,3,No Answer,Cooperative,36,17
+S00881,A10881,C0717,Regular,1.63,4,No Answer,Cooperative,60,0
+S00882,A10882,C0718,Irregular,2.14,6,No Answer,Cooperative,77,17
+S00883,A10883,C0719,Irregular,3.97,6,Refused,Angry,32,17
+S00884,A10884,C0720,Regular,7.63,1,Refused,Cooperative,17,16
+S00885,A10885,C0721,Irregular,1.73,4,No Answer,Neutral,57,18
+S00886,A10886,C0722,Regular,7.78,3,No Answer,Cooperative,89,10
+S00887,A10887,C0723,Regular,2.14,1,Refused,Neutral,50,6
+S00888,A10888,C0724,None,9.3,4,Refused,Cooperative,37,15
+S00889,A10889,C0725,Regular,7.99,5,No Answer,Neutral,89,9
+S00890,A10890,C0725,Regular,3.92,1,Refused,Distressed,55,10
+S00891,A10891,C0726,None,8.83,4,No Answer,Cooperative,52,18
+S00892,A10892,C0726,None,5.61,2,No Answer,Neutral,86,20
+S00893,A10893,C0727,Irregular,0.75,4,Refused,Cooperative,84,10
+S00894,A10894,C0727,None,0.59,1,No Answer,Distressed,46,20
+S00895,A10895,C0728,None,7.57,3,Refused,Cooperative,24,2
+S00896,A10896,C0729,Regular,3.63,3,No Answer,Neutral,81,18
+S00897,A10897,C0729,Irregular,4.62,6,Connected,Cooperative,89,16
+S00898,A10898,C0730,None,1.46,2,Connected,Distressed,99,13
+S00899,A10899,C0731,Irregular,0.92,5,Refused,Angry,75,9
+S00900,A10900,C0731,Irregular,7.67,5,Connected,Distressed,50,3
+S00901,A10901,C0732,Regular,9.72,4,No Answer,Distressed,94,8
+S00902,A10902,C0733,Irregular,9.58,3,Connected,Cooperative,15,4
+S00903,A10903,C0734,Irregular,7.02,0,Connected,Neutral,25,7
+S00904,A10904,C0735,None,3.66,3,No Answer,Neutral,45,13
+S00905,A10905,C0735,None,8.47,6,Refused,Neutral,22,20
+S00906,A10906,C0736,Regular,2.93,6,No Answer,Neutral,99,6
+S00907,A10907,C0737,None,5.8,4,No Answer,Neutral,51,19
+S00908,A10908,C0737,Regular,5.71,5,Connected,Cooperative,34,8
+S00909,A10909,C0738,Regular,4.46,5,Connected,Neutral,14,8
+S00910,A10910,C0739,Irregular,3.01,5,Refused,Cooperative,88,5
+S00911,A10911,C0740,Regular,5.87,4,No Answer,Cooperative,75,2
+S00912,A10912,C0741,Irregular,2.56,1,No Answer,Cooperative,26,2
+S00913,A10913,C0742,Irregular,9.18,2,No Answer,Neutral,96,6
+S00914,A10914,C0743,Irregular,7.44,0,Refused,Distressed,62,20
+S00915,A10915,C0743,Irregular,9.63,6,Refused,Neutral,44,16
+S00916,A10916,C0744,Irregular,7.5,3,No Answer,Neutral,40,3
+S00917,A10917,C0744,Regular,7.55,4,Refused,Cooperative,94,2
+S00918,A10918,C0745,Regular,1.92,3,Connected,Cooperative,32,14
+S00919,A10919,C0746,None,6.19,2,No Answer,Neutral,40,15
+S00920,A10920,C0747,Irregular,7.27,3,Connected,Cooperative,25,6
+S00921,A10921,C0748,Regular,7.16,5,Refused,Angry,84,1
+S00922,A10922,C0749,Irregular,5.32,5,Connected,Angry,49,16
+S00923,A10923,C0750,Regular,7.28,5,Connected,Distressed,86,17
+S00924,A10924,C0750,None,3.3,4,Refused,Neutral,13,8
+S00925,A10925,C0751,Regular,3.98,3,No Answer,Neutral,82,7
+S00926,A10926,C0752,Irregular,9.67,1,Connected,Angry,37,9
+S00927,A10927,C0753,Irregular,2.22,0,Connected,Cooperative,58,10
+S00928,A10928,C0754,None,8.55,1,Connected,Distressed,57,11
+S00929,A10929,C0754,Irregular,7.67,1,Refused,Distressed,45,7
+S00930,A10930,C0755,Regular,9.29,4,No Answer,Cooperative,65,16
+S00931,A10931,C0755,Regular,8.4,1,No Answer,Cooperative,11,2
+S00932,A10932,C0756,Irregular,7.74,2,Refused,Cooperative,61,8
+S00933,A10933,C0757,Irregular,5.08,0,Connected,Angry,81,20
+S00934,A10934,C0758,Regular,9.73,5,Connected,Cooperative,20,9
+S00935,A10935,C0758,Regular,6.61,0,Refused,Neutral,89,11
+S00936,A10936,C0759,Regular,9.23,3,No Answer,Neutral,92,14
+S00937,A10937,C0760,None,7.4,2,No Answer,Distressed,72,3
+S00938,A10938,C0760,None,8.94,5,No Answer,Distressed,34,15
+S00939,A10939,C0761,Irregular,2.95,6,Refused,Cooperative,36,14
+S00940,A10940,C0762,Regular,3.35,4,No Answer,Cooperative,12,8
+S00941,A10941,C0763,Irregular,2.53,6,Connected,Neutral,91,13
+S00942,A10942,C0763,Irregular,9.45,6,No Answer,Neutral,72,7
+S00943,A10943,C0764,None,1.18,5,Connected,Neutral,53,10
+S00944,A10944,C0765,Regular,6.49,4,Refused,Cooperative,21,11
+S00945,A10945,C0766,Regular,6.29,0,No Answer,Distressed,12,15
+S00946,A10946,C0767,None,5.68,5,Refused,Angry,19,10
+S00947,A10947,C0768,Irregular,1.22,1,No Answer,Angry,11,1
+S00948,A10948,C0769,Irregular,3.7,6,No Answer,Angry,67,4
+S00949,A10949,C0770,None,8.03,3,Connected,Angry,59,2
+S00950,A10950,C0771,Irregular,1.95,5,Refused,Neutral,78,0
+S00951,A10951,C0772,Regular,8.37,2,Connected,Distressed,83,2
+S00952,A10952,C0773,Irregular,6.05,2,Connected,Cooperative,35,2
+S00953,A10953,C0774,Irregular,2.29,5,No Answer,Angry,58,4
+S00954,A10954,C0775,Regular,4.22,4,Connected,Angry,20,1
+S00955,A10955,C0776,Irregular,6.42,0,Connected,Angry,25,7
+S00956,A10956,C0777,Regular,9.7,6,Connected,Neutral,62,10
+S00957,A10957,C0778,Regular,8.48,3,No Answer,Cooperative,82,16
+S00958,A10958,C0779,Irregular,6.24,6,No Answer,Angry,72,0
+S00959,A10959,C0780,Regular,4.93,3,No Answer,Distressed,49,13
+S00960,A10960,C0780,Irregular,5.06,0,Connected,Neutral,48,19
+S00961,A10961,C0781,Regular,7.44,0,Refused,Distressed,25,20
+S00962,A10962,C0781,Regular,9.73,3,Connected,Distressed,22,17
+S00963,A10963,C0782,Irregular,1.53,1,Connected,Distressed,45,11
+S00964,A10964,C0783,Regular,4.92,4,No Answer,Neutral,34,13
+S00965,A10965,C0784,Regular,4.93,4,Connected,Cooperative,46,8
+S00966,A10966,C0785,Regular,7.35,4,Connected,Distressed,48,4
+S00967,A10967,C0786,Irregular,6.62,3,Connected,Neutral,31,13
+S00968,A10968,C0787,None,3.5,0,Refused,Neutral,77,6
+S00969,A10969,C0787,Irregular,2.68,0,Connected,Cooperative,71,4
+S00970,A10970,C0788,None,4.39,0,Connected,Neutral,12,6
+S00971,A10971,C0789,Regular,0.96,5,No Answer,Neutral,91,0
+S00972,A10972,C0790,Regular,9.29,4,Connected,Neutral,96,10
+S00973,A10973,C0790,Irregular,5.5,4,No Answer,Neutral,59,0
+S00974,A10974,C0791,None,4.34,1,No Answer,Neutral,10,2
+S00975,A10975,C0791,Regular,6.52,4,No Answer,Angry,91,0
+S00976,A10976,C0792,Regular,3.87,4,No Answer,Cooperative,84,3
+S00977,A10977,C0793,Irregular,6.11,3,Refused,Cooperative,71,0
+S00978,A10978,C0794,Regular,3.02,0,No Answer,Cooperative,94,17
+S00979,A10979,C0795,None,7.17,0,Connected,Cooperative,38,1
+S00980,A10980,C0795,Regular,6.56,4,Connected,Neutral,32,16
+S00981,A10981,C0796,Regular,0.61,3,Connected,Distressed,46,19
+S00982,A10982,C0797,Irregular,5.37,1,No Answer,Angry,45,1
+S00983,A10983,C0798,Regular,8.06,4,Refused,Neutral,40,18
+S00984,A10984,C0799,Irregular,6.78,0,No Answer,Distressed,47,2
+S00985,A10985,C0800,Regular,3.36,5,Refused,Angry,93,19
+S00986,A10986,C0801,None,2.61,4,Refused,Neutral,33,4
+S00987,A10987,C0802,None,4.49,6,Connected,Angry,13,4
+S00988,A10988,C0803,Regular,6.32,0,Refused,Neutral,61,1
+S00989,A10989,C0804,Regular,0.71,3,No Answer,Angry,15,13
+S00990,A10990,C0805,Regular,4.55,4,No Answer,Cooperative,33,4
+S00991,A10991,C0806,None,8.32,2,No Answer,Cooperative,26,16
+S00992,A10992,C0807,Irregular,9.93,0,No Answer,Neutral,41,11
+S00993,A10993,C0808,Irregular,0.89,3,No Answer,Distressed,38,20
+S00994,A10994,C0809,None,1.06,6,No Answer,Neutral,24,20
+S00995,A10995,C0810,Regular,8.84,3,Connected,Cooperative,50,3
+S00996,A10996,C0811,Regular,8.67,6,No Answer,Angry,65,17
+S00997,A10997,C0811,Regular,2.8,3,Refused,Neutral,40,12
+S00998,A10998,C0812,Irregular,4.21,0,No Answer,Distressed,58,8
+S00999,A10999,C0812,None,4.7,6,Refused,Neutral,32,16
+S01000,A11000,C0813,None,7.89,1,Refused,Neutral,98,10
+S01001,A11001,C0814,Regular,3.94,4,No Answer,Distressed,88,8
+S01002,A11002,C0815,Regular,5.2,5,Refused,Cooperative,22,17
+S01003,A11003,C0816,None,3.8,4,Connected,Cooperative,87,17
+S01004,A11004,C0817,Irregular,9.28,0,Refused,Distressed,39,5
+S01005,A11005,C0818,Regular,7.04,5,No Answer,Distressed,58,13
+S01006,A11006,C0819,Regular,4.57,6,No Answer,Distressed,54,18
+S01007,A11007,C0820,None,6.51,0,Refused,Distressed,68,12
+S01008,A11008,C0821,None,9.88,4,Connected,Distressed,82,20
+S01009,A11009,C0822,Regular,4.69,2,Connected,Neutral,23,11
+S01010,A11010,C0822,Regular,5.38,2,Refused,Neutral,97,16
+S01011,A11011,C0823,None,8.94,2,No Answer,Neutral,12,11
+S01012,A11012,C0824,Irregular,7.55,3,No Answer,Neutral,40,4
+S01013,A11013,C0825,None,8.43,4,No Answer,Distressed,93,4
+S01014,A11014,C0826,None,9.82,0,Connected,Neutral,34,20
+S01015,A11015,C0827,Irregular,8.07,1,No Answer,Neutral,33,14
+S01016,A11016,C0828,Regular,7.74,5,Refused,Cooperative,87,8
+S01017,A11017,C0829,Irregular,4.06,0,Refused,Cooperative,35,15
+S01018,A11018,C0830,Irregular,9.87,5,Refused,Angry,70,14
+S01019,A11019,C0831,Irregular,6.06,1,No Answer,Angry,73,1
+S01020,A11020,C0832,Regular,7.83,1,Connected,Cooperative,75,0
+S01021,A11021,C0832,Regular,8.11,0,Connected,Neutral,80,9
+S01022,A11022,C0833,None,4.56,4,Refused,Neutral,88,6
+S01023,A11023,C0834,Regular,2.1,1,Connected,Distressed,70,19
+S01024,A11024,C0834,None,2.03,0,Connected,Neutral,11,16
+S01025,A11025,C0835,Irregular,1.09,2,Connected,Angry,19,19
+S01026,A11026,C0836,Regular,4.52,0,Connected,Cooperative,84,12
+S01027,A11027,C0837,None,5.17,4,Refused,Angry,57,0
+S01028,A11028,C0838,None,2.98,3,No Answer,Neutral,22,18
+S01029,A11029,C0839,Irregular,3.47,3,No Answer,Neutral,72,14
+S01030,A11030,C0839,Regular,3.5,5,Connected,Neutral,86,9
+S01031,A11031,C0840,Irregular,9.34,3,Refused,Angry,59,16
+S01032,A11032,C0840,Irregular,1.78,0,Refused,Distressed,79,8
+S01033,A11033,C0841,Regular,0.73,5,Connected,Cooperative,93,14
+S01034,A11034,C0842,Irregular,4.28,6,Connected,Angry,39,18
+S01035,A11035,C0843,Irregular,3.4,2,Connected,Cooperative,96,9
+S01036,A11036,C0844,None,5.33,4,No Answer,Cooperative,48,18
+S01037,A11037,C0845,Irregular,7.19,1,No Answer,Distressed,45,3
+S01038,A11038,C0846,Irregular,7.31,4,No Answer,Neutral,33,2
+S01039,A11039,C0847,Regular,0.94,4,No Answer,Distressed,43,6
+S01040,A11040,C0848,Regular,1.61,5,Connected,Angry,22,9
+S01041,A11041,C0849,Irregular,1.97,4,No Answer,Distressed,92,16
+S01042,A11042,C0850,Regular,5.21,1,No Answer,Neutral,94,0
+S01043,A11043,C0850,Regular,7.99,1,No Answer,Neutral,35,20
+S01044,A11044,C0851,None,2.89,4,Refused,Distressed,33,12
+S01045,A11045,C0851,Irregular,4.2,0,No Answer,Cooperative,25,11
+S01046,A11046,C0852,Irregular,3.26,0,No Answer,Cooperative,33,5
+S01047,A11047,C0853,None,1.04,4,Connected,Cooperative,95,4
+S01048,A11048,C0854,Regular,7.9,3,No Answer,Angry,66,0
+S01049,A11049,C0855,Regular,7.53,1,No Answer,Neutral,26,14
+S01050,A11050,C0856,None,0.63,3,Connected,Neutral,97,14
+S01051,A11051,C0857,Irregular,3.93,5,No Answer,Distressed,30,14
+S01052,A11052,C0857,Regular,2.44,0,Refused,Cooperative,91,9
+S01053,A11053,C0858,Regular,9.26,5,Connected,Angry,86,19
+S01054,A11054,C0859,Irregular,6.56,4,Connected,Angry,74,20
+S01055,A11055,C0860,Irregular,7.09,4,Connected,Distressed,70,15
+S01056,A11056,C0861,Irregular,5.58,3,No Answer,Cooperative,52,16
+S01057,A11057,C0862,Irregular,6.68,0,No Answer,Cooperative,22,10
+S01058,A11058,C0863,None,7.3,3,Refused,Neutral,55,0
+S01059,A11059,C0864,None,6.97,4,No Answer,Neutral,42,20
+S01060,A11060,C0865,None,8.33,1,Refused,Angry,39,19
+S01061,A11061,C0865,Regular,2.92,0,Connected,Cooperative,28,18
+S01062,A11062,C0866,None,7.25,1,Connected,Angry,87,18
+S01063,A11063,C0867,Regular,4.01,3,Connected,Neutral,48,0
+S01064,A11064,C0868,None,6.66,4,Refused,Cooperative,70,20
+S01065,A11065,C0869,Irregular,0.55,3,No Answer,Neutral,86,6
+S01066,A11066,C0869,Regular,4.97,6,Connected,Distressed,74,3
+S01067,A11067,C0870,Irregular,6.34,3,No Answer,Distressed,47,18
+S01068,A11068,C0871,Regular,4.53,1,Refused,Angry,67,19
+S01069,A11069,C0872,Irregular,6.86,1,Connected,Distressed,46,1
+S01070,A11070,C0873,Irregular,2.98,5,Connected,Angry,76,15
+S01071,A11071,C0873,None,8.76,1,Refused,Angry,58,9
+S01072,A11072,C0874,Regular,4.66,1,No Answer,Neutral,83,0
+S01073,A11073,C0875,Irregular,9.62,0,Refused,Distressed,25,10
+S01074,A11074,C0875,Regular,8.9,5,Refused,Cooperative,27,13
+S01075,A11075,C0876,None,8.25,3,Connected,Angry,62,18
+S01076,A11076,C0877,Irregular,4.68,0,Refused,Distressed,78,9
+S01077,A11077,C0877,Regular,6.26,3,Connected,Cooperative,56,4
+S01078,A11078,C0878,Irregular,2.05,5,Connected,Cooperative,74,9
+S01079,A11079,C0879,None,6.43,5,Connected,Distressed,68,2
+S01080,A11080,C0879,Irregular,1.72,4,No Answer,Neutral,61,1
+S01081,A11081,C0880,Irregular,8.02,4,No Answer,Angry,53,17
+S01082,A11082,C0880,Irregular,6.83,2,No Answer,Neutral,22,18
+S01083,A11083,C0881,None,6.62,4,No Answer,Distressed,22,17
+S01084,A11084,C0881,None,9.47,6,Connected,Neutral,73,9
+S01085,A11085,C0882,Regular,3.18,6,Refused,Distressed,81,17
+S01086,A11086,C0883,Regular,8.85,1,No Answer,Distressed,66,0
+S01087,A11087,C0884,None,1.55,5,Connected,Distressed,89,1
+S01088,A11088,C0885,Irregular,3.2,6,Refused,Angry,56,13
+S01089,A11089,C0885,Irregular,7.16,2,Refused,Distressed,82,7
+S01090,A11090,C0886,Irregular,8.3,6,No Answer,Cooperative,14,7
+S01091,A11091,C0886,None,6.8,2,Connected,Distressed,62,19
+S01092,A11092,C0887,None,7.03,6,Refused,Neutral,19,2
+S01093,A11093,C0888,Irregular,2.28,4,No Answer,Cooperative,97,7
+S01094,A11094,C0889,Irregular,6.67,3,Refused,Cooperative,80,2
+S01095,A11095,C0889,None,7.67,4,Refused,Distressed,72,6
+S01096,A11096,C0890,Regular,7.21,2,Refused,Neutral,27,6
+S01097,A11097,C0891,Regular,2.85,4,No Answer,Cooperative,34,8
+S01098,A11098,C0891,Regular,9.94,1,Connected,Neutral,83,16
+S01099,A11099,C0892,None,5.06,5,Refused,Cooperative,84,6
+S01100,A11100,C0893,Irregular,1.52,4,Refused,Cooperative,22,13
+S01101,A11101,C0893,Regular,2.31,0,No Answer,Distressed,87,17
+S01102,A11102,C0894,Irregular,7.5,3,No Answer,Angry,52,14
+S01103,A11103,C0895,Irregular,7.35,5,Refused,Distressed,50,19
+S01104,A11104,C0896,Irregular,6.74,4,Connected,Neutral,81,5
+S01105,A11105,C0897,None,9.63,2,Connected,Distressed,29,11
+S01106,A11106,C0898,Irregular,8.27,5,No Answer,Cooperative,46,20
+S01107,A11107,C0899,None,5.12,5,Connected,Neutral,20,18
+S01108,A11108,C0900,Irregular,4.59,3,Connected,Neutral,76,14
+S01109,A11109,C0901,Irregular,5.42,2,Connected,Distressed,53,20
+S01110,A11110,C0902,Irregular,3.11,1,No Answer,Cooperative,93,20
+S01111,A11111,C0903,Irregular,9.96,1,Connected,Neutral,33,0
+S01112,A11112,C0904,None,8.28,1,Connected,Cooperative,99,4
+S01113,A11113,C0905,Regular,9.85,6,No Answer,Angry,90,12
+S01114,A11114,C0905,None,6.09,3,Connected,Neutral,46,10
+S01115,A11115,C0906,Irregular,2.73,1,No Answer,Cooperative,57,3
+S01116,A11116,C0907,Irregular,9.44,5,Connected,Cooperative,44,7
+S01117,A11117,C0907,Irregular,3.61,0,Connected,Cooperative,49,0
+S01118,A11118,C0908,Irregular,8.07,2,Connected,Distressed,57,6
+S01119,A11119,C0909,Regular,1.63,0,No Answer,Cooperative,34,18
+S01120,A11120,C0909,Irregular,7.32,5,Connected,Distressed,14,0
+S01121,A11121,C0910,Irregular,5.41,3,No Answer,Cooperative,11,16
+S01122,A11122,C0911,Regular,1.61,4,Connected,Cooperative,12,2
+S01123,A11123,C0912,Irregular,8.57,5,Refused,Angry,76,20
+S01124,A11124,C0913,Regular,9.72,2,No Answer,Neutral,47,7
+S01125,A11125,C0914,Irregular,3.87,4,No Answer,Neutral,66,7
+S01126,A11126,C0914,Regular,8.63,0,Connected,Neutral,49,10
+S01127,A11127,C0915,None,7.0,5,Refused,Angry,48,9
+S01128,A11128,C0915,None,7.6,5,Connected,Angry,72,14
+S01129,A11129,C0916,None,1.22,0,No Answer,Angry,24,15
+S01130,A11130,C0916,Irregular,3.98,3,Connected,Distressed,89,10
+S01131,A11131,C0917,None,9.17,6,Refused,Cooperative,83,3
+S01132,A11132,C0917,Regular,4.19,6,Refused,Angry,38,9
+S01133,A11133,C0918,Regular,7.98,4,Connected,Cooperative,41,13
+S01134,A11134,C0919,Irregular,1.98,2,Refused,Cooperative,38,7
+S01135,A11135,C0920,Regular,0.51,1,Refused,Angry,11,16
+S01136,A11136,C0920,Irregular,5.0,4,No Answer,Cooperative,31,2
+S01137,A11137,C0921,None,2.34,6,Refused,Angry,72,9
+S01138,A11138,C0922,None,9.84,3,Connected,Neutral,84,12
+S01139,A11139,C0923,None,8.5,1,No Answer,Distressed,31,14
+S01140,A11140,C0924,Irregular,4.64,3,Refused,Cooperative,36,5
+S01141,A11141,C0925,None,3.48,4,No Answer,Distressed,82,20
+S01142,A11142,C0925,None,4.99,5,Connected,Cooperative,89,7
+S01143,A11143,C0926,Irregular,3.58,4,Refused,Distressed,26,16
+S01144,A11144,C0927,Irregular,3.59,6,Connected,Distressed,30,7
+S01145,A11145,C0928,Irregular,1.41,2,Refused,Neutral,69,12
+S01146,A11146,C0929,Irregular,6.38,0,No Answer,Cooperative,89,11
+S01147,A11147,C0930,Irregular,1.91,2,Connected,Neutral,86,10
+S01148,A11148,C0931,Irregular,4.98,5,Connected,Neutral,59,9
+S01149,A11149,C0931,Irregular,6.14,6,No Answer,Neutral,98,0
+S01150,A11150,C0932,Irregular,5.54,0,Refused,Neutral,25,15
+S01151,A11151,C0933,Irregular,1.39,0,Connected,Neutral,77,9
+S01152,A11152,C0933,Regular,2.45,0,No Answer,Distressed,63,14
+S01153,A11153,C0934,Regular,8.57,1,No Answer,Neutral,29,1
+S01154,A11154,C0934,Regular,3.78,4,Connected,Cooperative,70,12
+S01155,A11155,C0935,Irregular,1.36,2,No Answer,Cooperative,20,14
+S01156,A11156,C0935,Regular,1.53,3,Refused,Distressed,23,2
+S01157,A11157,C0936,Regular,4.64,4,No Answer,Distressed,70,9
+S01158,A11158,C0937,Regular,7.11,3,No Answer,Neutral,27,1
+S01159,A11159,C0938,Regular,1.95,4,Refused,Distressed,52,15
+S01160,A11160,C0938,Regular,7.4,6,Refused,Distressed,86,9
+S01161,A11161,C0939,None,6.56,5,Connected,Distressed,88,1
+S01162,A11162,C0940,Irregular,1.58,6,No Answer,Cooperative,37,16
+S01163,A11163,C0941,None,3.86,3,No Answer,Distressed,94,1
+S01164,A11164,C0942,Regular,2.6,1,No Answer,Distressed,18,19
+S01165,A11165,C0943,Regular,2.92,3,No Answer,Distressed,51,3
+S01166,A11166,C0944,Regular,5.59,6,Connected,Distressed,70,9
+S01167,A11167,C0945,Irregular,1.13,4,No Answer,Neutral,36,2
+S01168,A11168,C0946,Regular,8.08,4,Refused,Cooperative,97,7
+S01169,A11169,C0947,None,4.27,1,Refused,Distressed,10,20
+S01170,A11170,C0947,Regular,2.37,4,No Answer,Distressed,10,6
+S01171,A11171,C0948,Regular,5.01,1,Refused,Cooperative,20,18
+S01172,A11172,C0949,None,7.83,0,No Answer,Distressed,49,7
+S01173,A11173,C0949,None,2.96,4,Connected,Neutral,66,11
+S01174,A11174,C0950,Irregular,3.06,3,No Answer,Angry,18,4
+S01175,A11175,C0950,Irregular,2.76,6,No Answer,Distressed,15,12
+S01176,A11176,C0951,Regular,1.5,1,Connected,Neutral,19,16
+S01177,A11177,C0952,None,1.7,4,Connected,Distressed,41,11
+S01178,A11178,C0953,Regular,2.54,5,Refused,Distressed,50,15
+S01179,A11179,C0954,Irregular,2.25,3,No Answer,Distressed,22,11
+S01180,A11180,C0955,None,4.58,4,No Answer,Cooperative,28,8
+S01181,A11181,C0956,Irregular,6.22,4,Connected,Distressed,66,15
+S01182,A11182,C0957,Regular,1.73,2,Connected,Cooperative,13,8
+S01183,A11183,C0958,Irregular,6.79,0,No Answer,Neutral,27,8
+S01184,A11184,C0959,None,7.52,0,Connected,Distressed,97,3
+S01185,A11185,C0960,Irregular,1.35,6,No Answer,Cooperative,74,8
+S01186,A11186,C0961,None,5.63,5,Refused,Neutral,60,0
+S01187,A11187,C0962,None,0.96,1,No Answer,Cooperative,19,15
+S01188,A11188,C0963,None,8.95,3,No Answer,Cooperative,18,7
+S01189,A11189,C0963,None,0.78,4,Connected,Neutral,57,7
+S01190,A11190,C0964,Regular,8.92,3,Connected,Neutral,82,6
+S01191,A11191,C0965,None,6.59,5,No Answer,Distressed,40,4
+S01192,A11192,C0966,Regular,4.82,3,Connected,Distressed,47,1
+S01193,A11193,C0967,Irregular,8.43,1,No Answer,Cooperative,66,14
+S01194,A11194,C0967,Regular,3.03,2,No Answer,Distressed,71,1
+S01195,A11195,C0968,Regular,8.46,0,Refused,Cooperative,56,18
+S01196,A11196,C0969,Regular,0.63,6,Connected,Cooperative,38,5
+S01197,A11197,C0970,None,8.64,4,No Answer,Cooperative,18,3
+S01198,A11198,C0971,Irregular,6.62,3,Connected,Cooperative,24,7
+S01199,A11199,C0972,Irregular,1.37,3,Refused,Cooperative,64,11
+S01200,A11200,C0973,Regular,6.7,4,Connected,Angry,16,4
+S01201,A11201,C0974,Irregular,9.04,1,No Answer,Cooperative,93,19
+S01202,A11202,C0974,None,5.96,0,Connected,Neutral,40,20
+S01203,A11203,C0975,Regular,8.03,0,No Answer,Angry,36,11
+S01204,A11204,C0975,None,5.09,1,Refused,Neutral,53,20
+S01205,A11205,C0976,Irregular,8.01,3,No Answer,Cooperative,44,13
+S01206,A11206,C0977,Irregular,1.01,6,Connected,Distressed,78,14
+S01207,A11207,C0978,Irregular,9.26,4,No Answer,Neutral,21,11
+S01208,A11208,C0979,Irregular,2.04,5,Refused,Neutral,56,0
+S01209,A11209,C0979,Irregular,5.06,2,No Answer,Distressed,48,10
+S01210,A11210,C0980,Regular,2.7,0,Refused,Cooperative,27,9
+S01211,A11211,C0981,Irregular,1.27,1,Connected,Cooperative,35,18
+S01212,A11212,C0982,Regular,1.96,0,Refused,Neutral,64,17
+S01213,A11213,C0983,Irregular,0.58,0,Connected,Cooperative,96,17
+S01214,A11214,C0983,Regular,8.08,0,No Answer,Neutral,93,17
+S01215,A11215,C0984,Regular,2.29,0,Connected,Distressed,35,11
+S01216,A11216,C0985,Irregular,2.16,1,Connected,Neutral,58,17
+S01217,A11217,C0986,None,3.54,1,Refused,Neutral,34,7
+S01218,A11218,C0987,Regular,9.5,0,No Answer,Angry,52,8
+S01219,A11219,C0988,Regular,5.09,1,Refused,Angry,30,6
+S01220,A11220,C0989,Irregular,5.27,1,Refused,Cooperative,71,20
+S01221,A11221,C0990,Regular,6.76,5,No Answer,Cooperative,51,18
+S01222,A11222,C0991,Irregular,1.62,5,Connected,Neutral,23,2
+S01223,A11223,C0992,Irregular,1.05,5,Refused,Cooperative,49,3
+S01224,A11224,C0993,Regular,7.59,0,No Answer,Cooperative,85,16
+S01225,A11225,C0994,None,9.49,5,Refused,Neutral,55,19
+S01226,A11226,C0995,None,4.48,6,Connected,Distressed,81,18
+S01227,A11227,C0996,None,5.12,6,No Answer,Neutral,65,9
+S01228,A11228,C0997,Regular,6.28,1,Connected,Angry,20,12
+S01229,A11229,C0998,Irregular,9.89,0,Refused,Distressed,74,2
+S01230,A11230,C0999,Irregular,1.45,0,No Answer,Neutral,79,10
+S01231,A11231,C1000,Irregular,1.13,3,Refused,Neutral,46,9
