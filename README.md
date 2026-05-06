@@ -1,8 +1,10 @@
 # AI‑Driven Settlement Platform
 
 ## Overview
+
 This repository contains a minimal end‑to‑end prototype for an AI‑driven debt settlement platform.
-- **Backend** – FastAPI service that exposes REST endpoints for case data, rule evaluation and AI recommendations. (`main.py`) 
+
+- **Backend** – FastAPI service that exposes REST endpoints for case data, rule evaluation and AI recommendations. (`main.py`)
 - **AI engine** – LangChain + Azure OpenAI orchestration (`ai_engine.py`).
 - **Rule engine** – Compliance logic based on fairness buckets (`rule_engine.py`).
 - **Data** – Synthetic CSVs used to populate a SQLite database (`data/`).
@@ -10,6 +12,7 @@ This repository contains a minimal end‑to‑end prototype for an AI‑driven d
 - The original React/Next.js frontend has been replaced; its code is kept only for reference.
 
 ## Project structure
+
 ```
 Hackathon 2/
 ├─ .gitignore            # ignored files for the repo
@@ -29,6 +32,7 @@ Hackathon 2/
 ```
 
 ## Setup & installation
+
 ```bash
 # 1. Clone the repo (already done)
 # 2. Create a Python virtual environment at the repo root
@@ -38,10 +42,13 @@ source venv/bin/activate
 # 3. Install all required Python packages
 pip install -r requirements.txt
 ```
+
 > **Note**: the `requirements.txt` already lists Streamlit, FastAPI and all other dependencies.
 
 ## Configuration
+
 Create (or edit) `.env` with the following keys (example values are shown):
+
 ```
 AZURE_OPENAI_API_KEY=your_key_here
 AZURE_OPENAI_ENDPOINT=https://your-openai-endpoint.openai.azure.com/
@@ -49,27 +56,44 @@ AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4.1-mini
 AZURE_API_VERSION=2025-01-01-preview
 PORT=8002               # port the FastAPI server will listen on
 ```
+
 The same `.env` file is used by the Streamlit app to build `API_BASE_URL`.
 
+## Injecting data
+
+The `data/` folder contains synthetic CSV files that mimic the expected data structure. To load this data into the SQLite database, run:
+
+```bash
+python load_data.py
+```
+
+This will create (or overwrite) `settlement.db` with the data from the CSVs. The FastAPI backend will read from this database to serve case data and log decisions.
+
 ## Running the backend
+
 ```bash
 # From the repository root (where main.py lives)
 python main.py            # or: uvicorn main:app --reload
 ```
+
 The API will be available at `http://localhost:<PORT>` (default 8002).
 
 ## Running the Streamlit UI
+
 ```bash
 # From the repository root (where app.py lives)
 streamlit run app.py
 ```
+
 The UI will start on `http://localhost:8501` and connect to the backend using the `API_BASE_URL` derived from the `.env` file.
 
 ## Quick test workflow
+
 1. Start the backend (`python main.py`).
 2. In another terminal, start Streamlit (`streamlit run app.py`).
 3. Open the Streamlit URL in a browser, select a case from the sidebar, and click **Run AI Recommendation Engine**.
 4. Review the generated recommendation and optionally log a decision.
 
 ---
+
 Enjoy experimenting with the AI‑driven settlement platform!
