@@ -99,14 +99,22 @@ else:
         # --- Previous Offers History ---
         st.subheader("Previous Offers")
         previous_offers = case_details.get("previous_offers", [])
+        last_accepted_offer = None
         if previous_offers:
+            # Find the last accepted offer (assuming offers are in chronological order)
+            for offer in reversed(previous_offers):
+                if str(offer.get("customer_response", "")).lower() == "accepted":
+                    last_accepted_offer = offer
+                    break
             po_df = pd.DataFrame(previous_offers)
-            # Format columns for display
             po_df["Offer %"] = (po_df["ai_recommended_offer_percent"] * 100).astype(str) + "%"
             po_df["Agent %"] = po_df["actual_agent_offer_percent"].apply(lambda x: f"{x*100}%" if pd.notnull(x) else "N/A")
             po_df["Response"] = po_df["customer_response"].fillna("Pending")
             po_df["Installments"] = po_df["installment_months"].fillna(1).astype(int)
             po_df = po_df[["Offer %", "Agent %", "Response", "Installments", "human_override_flag"]]
+            # Highlight last accepted offer
+            if last_accepted_offer:
+                st.success(f"Last Accepted Offer: {last_accepted_offer['actual_agent_offer_percent']*100:.0f}% over {last_accepted_offer.get('installment_months', 1)} month(s)")
             st.dataframe(po_df, use_container_width=True)
         else:
             st.info("No previous settlement offers found for this account.")
@@ -116,72 +124,70 @@ else:
         # --- AI Recommendation Section ---
         st.subheader("AI Co-pilot")
         
-        if st.button("Run AI Recommendation Engine", type="primary"):
-            with st.spinner("Analyzing rules and generating recommendation..."):
-                try:
-                    rec_res = requests.post(f"{API_BASE_URL}/api/cases/{account_id}/recommend")
-                    rec_res.raise_for_status()
-                    rec_data = rec_res.json()
-                    st.session_state[f'recommendation_{account_id}'] = rec_data
-                except Exception as e:
-                    st.error(f"Error generating recommendation: {e}")
+        # Disable AI Recommendation if last accepted offer is in progress
+        offer_in_progress = last_accepted_offer is not None
+        if offer_in_progress:
+            st.info("An offer has already been accepted and is in progress. No new offers can be generated.")
+        else:
+            if st.button("Run AI Recommendation Engine", type="primary"):
+                with st.spinner("Analyzing rules and generating recommendation..."):
+                    try:
+                        rec_res = requests.post(f"{API_BASE_URL}/api/cases/{account_id}/recommend")
+                        rec_res.raise_for_status()
+                        rec_data = rec_res.json()
+                        st.session_state[f'recommendation_{account_id}'] = rec_data
+                    except Exception as e:
+                        st.error(f"Error generating recommendation: {e}")
         
-        # Display recommendation if it exists in session state
-        rec_data = st.session_state.get(f'recommendation_{account_id}')
-        
-        if rec_data:
-            st.success("AI Recommendation Generated!")
-            
-            m1, m2, m3, m4 = st.columns(4)
-            m1.metric("Suggested Settlement", f"{rec_data['recommended_percentage'] * 100:.0f}%")
-            m2.metric("Acceptance Probability", f"{rec_data['acceptance_probability'] * 100:.0f}%")
-            m3.metric("Completion Risk", rec_data['completion_risk'])
-            m4.metric("Recommended Plan", f"{rec_data.get('recommended_installment_months', 1)} Months")
-            
-            st.info(f"**Reasoning & Compliance:**\n\n{rec_data['explanation']}")
-            st.info(f"**Payment Strategy Reasoning:**\n\n{rec_data.get('payment_strategy_explanation', 'N/A')}")
-            
-            st.markdown("---")
-            
-            # --- Final Decision Section ---
-            st.subheader("Log Final Decision")
-            
-            agent_offer = st.number_input("Final Offer (%)", min_value=0.0, max_value=100.0, value=float(rec_data['recommended_percentage'] * 100), step=1.0)
-            customer_resp = st.radio("Customer Response", ["Accepted", "Rejected"], horizontal=True)
-            
-            if st.button("Log Decision", type="primary", key=f"log_{account_id}"):
-                is_override = (agent_offer / 100.0) != rec_data['recommended_percentage']
-                # If accepted, we use the AI's recommended installment plan
-                install_months = rec_data.get('recommended_installment_months', 1) if customer_resp == "Accepted" else None
-                
-                payload = {
-                    "ai_recommended_offer_percent": rec_data['recommended_percentage'],
-                    "actual_agent_offer_percent": agent_offer / 100.0,
-                    "human_override_flag": "Yes" if is_override else "No",
-                    "customer_response": customer_resp,
-                    "installment_months": install_months
-                }
-                try:
-                    log_res = requests.post(f"{API_BASE_URL}/api/cases/{account_id}/decide", json=payload)
-                    log_res.raise_for_status()
-                    # Store alert in session state so it shows after rerun
-                    if customer_resp == "Accepted":
-                        st.session_state["decision_alert"] = {
-                            "type": "accepted",
-                            "message": f"Offer ACCEPTED and logged! Payment plan: {install_months} month(s)."
-                        }
-                    else:
-                        st.session_state["decision_alert"] = {
-                            "type": "rejected",
-                            "message": "Offer REJECTED by customer. Decision has been logged."
-                        }
-                    # Clear the recommendation state so the user can start fresh
-                    del st.session_state[f'recommendation_{account_id}']
-                    # Clear the case list cache and rerun to refresh Previous Offers
-                    fetch_cases.clear()
-                    st.rerun()
-                except Exception as e:
-                    st.error(f"Failed to log decision: {e}")
+        # Display recommendation and decision UI only if no offer is in progress
+        if not offer_in_progress:
+            rec_data = st.session_state.get(f'recommendation_{account_id}')
+            if rec_data:
+                st.success("AI Recommendation Generated!")
+                m1, m2, m3, m4 = st.columns(4)
+                m1.metric("Suggested Settlement", f"{rec_data['recommended_percentage'] * 100:.0f}%")
+                m2.metric("Acceptance Probability", f"{rec_data['acceptance_probability'] * 100:.0f}%")
+                m3.metric("Completion Risk", rec_data['completion_risk'])
+                m4.metric("Recommended Plan", f"{rec_data.get('recommended_installment_months', 1)} Months")
+                st.info(f"**Reasoning & Compliance:**\n\n{rec_data['explanation']}")
+                st.info(f"**Payment Strategy Reasoning:**\n\n{rec_data.get('payment_strategy_explanation', 'N/A')}")
+                st.markdown("---")
+                # --- Final Decision Section ---
+                st.subheader("Log Final Decision")
+                agent_offer = st.number_input("Final Offer (%)", min_value=0.0, max_value=100.0, value=float(rec_data['recommended_percentage'] * 100), step=1.0)
+                customer_resp = st.radio("Customer Response", ["Accepted", "Rejected"], horizontal=True)
+                if st.button("Log Decision", type="primary", key=f"log_{account_id}"):
+                    is_override = (agent_offer / 100.0) != rec_data['recommended_percentage']
+                    # If accepted, we use the AI's recommended installment plan
+                    install_months = rec_data.get('recommended_installment_months', 1) if customer_resp == "Accepted" else None
+                    payload = {
+                        "ai_recommended_offer_percent": rec_data['recommended_percentage'],
+                        "actual_agent_offer_percent": agent_offer / 100.0,
+                        "human_override_flag": "Yes" if is_override else "No",
+                        "customer_response": customer_resp,
+                        "installment_months": install_months
+                    }
+                    try:
+                        log_res = requests.post(f"{API_BASE_URL}/api/cases/{account_id}/decide", json=payload)
+                        log_res.raise_for_status()
+                        # Store alert in session state so it shows after rerun
+                        if customer_resp == "Accepted":
+                            st.session_state["decision_alert"] = {
+                                "type": "accepted",
+                                "message": f"Offer ACCEPTED and logged! Payment plan: {install_months} month(s)."
+                            }
+                        else:
+                            st.session_state["decision_alert"] = {
+                                "type": "rejected",
+                                "message": "Offer REJECTED by customer. Decision has been logged."
+                            }
+                        # Clear the recommendation state so the user can start fresh
+                        del st.session_state[f'recommendation_{account_id}']
+                        # Clear the case list cache and rerun to refresh Previous Offers
+                        fetch_cases.clear()
+                        st.rerun()
+                    except Exception as e:
+                        st.error(f"Failed to log decision: {e}")
                         
     except Exception as e:
         st.error(f"Failed to load case details: {e}")
