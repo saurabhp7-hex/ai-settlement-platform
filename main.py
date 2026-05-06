@@ -47,6 +47,18 @@ def get_case_details(account_id: str, db: Session = Depends(get_db)):
     behavior = db.query(models.BehavioralSignals).filter(models.BehavioralSignals.account_id == account_id).first()
     macro = db.query(models.MacroContext).filter(models.MacroContext.region_id == customer.region_type).first()
     
+    offers_db = db.query(models.SettlementOffers).filter(models.SettlementOffers.account_id == account_id).order_by(models.SettlementOffers.offer_timestamp.desc()).all()
+    previous_offers = []
+    for o in offers_db:
+        previous_offers.append({
+            "offer_id": o.offer_id,
+            "ai_recommended_offer_percent": o.ai_recommended_offer_percent,
+            "actual_agent_offer_percent": o.actual_agent_offer_percent,
+            "customer_response": o.customer_response,
+            "installment_months": o.installment_months,
+            "human_override_flag": o.human_override_flag
+        })
+    
     return {
         "account": {
             "account_id": account.account_id,
@@ -70,7 +82,8 @@ def get_case_details(account_id: str, db: Session = Depends(get_db)):
         "macro": {
             "unemployment_rate": macro.unemployment_rate if macro else None,
             "economic_stress_flag": macro.economic_stress_flag if macro else "Unknown"
-        }
+        },
+        "previous_offers": previous_offers
     }
 
 @app.post("/api/cases/{account_id}/recommend")
@@ -113,6 +126,8 @@ def log_decision(account_id: str, decision: dict, db: Session = Depends(get_db))
         account_id=account_id,
         ai_recommended_offer_percent=decision.get("ai_recommended_offer_percent"),
         actual_agent_offer_percent=decision.get("actual_agent_offer_percent"),
+        customer_response=decision.get("customer_response"),
+        installment_months=decision.get("installment_months"),
         human_override_flag=decision.get("human_override_flag", "No")
     )
     db.add(new_offer)

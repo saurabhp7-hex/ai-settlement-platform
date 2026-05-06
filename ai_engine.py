@@ -14,6 +14,8 @@ class SettlementRecommendation(BaseModel):
     acceptance_probability: float = Field(description="The predicted probability that the customer will accept this offer (0.0 to 1.0)")
     completion_risk: str = Field(description="The risk level of the customer failing to complete the payment plan (Low, Medium, High)")
     explanation: str = Field(description="A detailed human-readable explanation of why this offer was recommended, citing specific customer and account factors, and compliance rules.")
+    recommended_installment_months: int = Field(description="The recommended payment plan in months. Must be one of: 1, 3, 6, 12. Use 1 for a one-time payment.")
+    payment_strategy_explanation: str = Field(description="Explanation of why this specific payment plan (1, 3, 6, or 12 months) was chosen based on default risk, broken promises count, income band, economic stress, and vulnerability flag.")
 
 # Set up the Azure OpenAI model
 llm = AzureChatOpenAI(
@@ -30,6 +32,7 @@ prompt = ChatPromptTemplate.from_messages([
     ("system", "You are an AI assistant for a collections department at a bank. Your goal is to recommend the optimal settlement offer for a delinquent account. "
                "You must balance maximizing recovery, customer affordability, and regulatory compliance. "
                "You MUST strictly adhere to any hard constraints provided. "
+               "You MUST ALSO determine the optimal payment strategy (1, 3, 6, or 12 months). Analyze the customer's broken_promises_count, income_band, vulnerability_flag, and economic_stress_flag to assess the risk of them accepting but defaulting later. If default risk is high, recommend fewer months. "
                "Return your response in valid JSON matching the following schema:\n{format_instructions}"),
     ("user", "Customer Profile:\n{customer_context}\n\n"
              "Account Debt Details:\n{account_context}\n\n"
@@ -83,5 +86,7 @@ def generate_recommendation(
             "recommended_percentage": max(0.50, settlement_floor),
             "acceptance_probability": 0.65,
             "completion_risk": "Medium",
-            "explanation": f"FALLBACK MODE: Unable to reach Azure OpenAI. Using standard heuristic recommendation. Please check API keys. Error: {str(e)}"
+            "explanation": f"FALLBACK MODE: Unable to reach Azure OpenAI. Using standard heuristic recommendation. Please check API keys. Error: {str(e)}",
+            "recommended_installment_months": 3,
+            "payment_strategy_explanation": "Fallback mode defaults to a 3-month payment strategy."
         }
