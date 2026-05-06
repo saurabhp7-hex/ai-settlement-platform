@@ -67,6 +67,14 @@ else:
         res.raise_for_status()
         case_details = res.json()
         
+        # --- Show post-decision alert if present ---
+        if "decision_alert" in st.session_state:
+            alert = st.session_state.pop("decision_alert")
+            if alert["type"] == "accepted":
+                st.toast(alert["message"], icon="✅")
+            else:
+                st.toast(alert["message"], icon="❌")
+        
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("Customer Profile")
@@ -156,9 +164,22 @@ else:
                 try:
                     log_res = requests.post(f"{API_BASE_URL}/api/cases/{account_id}/decide", json=payload)
                     log_res.raise_for_status()
-                    st.success(f"Decision logged successfully! ({customer_resp})")
-                    # Clear the recommendation state so the user can move to the next case safely
+                    # Store alert in session state so it shows after rerun
+                    if customer_resp == "Accepted":
+                        st.session_state["decision_alert"] = {
+                            "type": "accepted",
+                            "message": f"Offer ACCEPTED and logged! Payment plan: {install_months} month(s)."
+                        }
+                    else:
+                        st.session_state["decision_alert"] = {
+                            "type": "rejected",
+                            "message": "Offer REJECTED by customer. Decision has been logged."
+                        }
+                    # Clear the recommendation state so the user can start fresh
                     del st.session_state[f'recommendation_{account_id}']
+                    # Clear the case list cache and rerun to refresh Previous Offers
+                    fetch_cases.clear()
+                    st.rerun()
                 except Exception as e:
                     st.error(f"Failed to log decision: {e}")
                         
