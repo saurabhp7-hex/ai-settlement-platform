@@ -49,7 +49,7 @@ else:
         st.sidebar.button(label, 
                           key=f"select_{row['account_id']}", 
                           type="primary" if selectedRow else "secondary",
-                          use_container_width=True,
+                          width='stretch',
                           on_click=select_account,
                           args=(row['account_id'],)
                           )
