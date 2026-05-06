@@ -6,7 +6,7 @@ import models
 # Create all tables in the engine
 Base.metadata.create_all(bind=engine)
 
-DATA_DIR = "../data"
+DATA_DIR = "data"
 
 def load_csv_to_db():
     db = SessionLocal()

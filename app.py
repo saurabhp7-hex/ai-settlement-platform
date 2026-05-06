@@ -107,14 +107,14 @@ else:
                     last_accepted_offer = offer
                     break
             po_df = pd.DataFrame(previous_offers)
-            po_df["Offer %"] = (po_df["ai_recommended_offer_percent"] * 100).astype(str) + "%"
-            po_df["Agent %"] = po_df["actual_agent_offer_percent"].apply(lambda x: f"{x*100}%" if pd.notnull(x) else "N/A")
+            po_df["Offer %"] = (po_df["ai_recommended_offer_percent"]).astype(str) + "%"
+            po_df["Agent %"] = po_df["actual_agent_offer_percent"].apply(lambda x: f"{x}%" if pd.notnull(x) else "N/A")
             po_df["Response"] = po_df["customer_response"].fillna("Pending")
             po_df["Installments"] = po_df["installment_months"].fillna(1).astype(int)
             po_df = po_df[["Offer %", "Agent %", "Response", "Installments", "human_override_flag"]]
             # Highlight last accepted offer
             if last_accepted_offer:
-                st.success(f"Last Accepted Offer: {last_accepted_offer['actual_agent_offer_percent']*100:.0f}% over {last_accepted_offer.get('installment_months', 1)} month(s)")
+                st.success(f"Last Accepted Offer: {last_accepted_offer['actual_agent_offer_percent']:.0f}% over {last_accepted_offer.get('installment_months', 1)} month(s)")
             st.dataframe(po_df, use_container_width=True)
         else:
             st.info("No previous settlement offers found for this account.")
@@ -161,8 +161,8 @@ else:
                     # If accepted, we use the AI's recommended installment plan
                     install_months = rec_data.get('recommended_installment_months', 1) if customer_resp == "Accepted" else None
                     payload = {
-                        "ai_recommended_offer_percent": rec_data['recommended_percentage'],
-                        "actual_agent_offer_percent": agent_offer / 100.0,
+                        "ai_recommended_offer_percent": rec_data['recommended_percentage'] * 100,
+                        "actual_agent_offer_percent": agent_offer,
                         "human_override_flag": "Yes" if is_override else "No",
                         "customer_response": customer_resp,
                         "installment_months": install_months
