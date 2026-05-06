@@ -6,6 +6,7 @@ env/
 
 # Database
 *.db
+!settlement.db
 *.sqlite3
 
 # MLflow
